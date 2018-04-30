@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include("lang.php"); ?>
 
+<!DOCTYPE html>
+<html>
+
+<title><?php echo L::title_accueil; ?></title>
 <?php include("librairies.php"); ?>
 
 <body class="homepage">
