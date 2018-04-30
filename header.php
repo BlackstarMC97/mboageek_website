@@ -5,9 +5,9 @@
                 <div class="col-sm-8 col-xs-4">
                     <div class="top-number">
                         <p>
-                            <i class="fa fa-phone-square"></i>  +237 655 669 952 
+                            <i class="fa fa-phone"></i>  +237 655 669 952 
                             <i class="fa fa-envelope" style="margin-left:5%;"></i>  contact@mboageek.com
-                            <i class="fa fa-map-marker" style="margin-left:5%;"></i>  Makepe Missoke, Douala Cameroun
+                            <i class="fa fa-map-marker" style="margin-left:5%;"></i>  Makepe Missoke, <?php echo L::villepays; ?>
                         </p>
                     </div>
                 </div>
@@ -39,26 +39,32 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
             </div>
             
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="index.php"><?php echo L::accueil; ?></a></li>
+                    <li><a href="about-us.php"><?php echo L::apropos; ?></a></li>
+                    <li><a href="services.php"><?php echo L::services; ?></a></li>
+                    <li><a href="portfolio.php"><?php echo L::realisations; ?></a></li>
+                    <li><a href="pricing.php"><?php echo L::tarifs; ?></a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                            <li><a href="blog-item.php">Blog Single</a></li>
+                            <li><a href="blog.php">Blog Home</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>                        
+                    <li><a href="contact-us.php">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/<?php echo $_GET['lang']; ?>.png" style=""> <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="?lang=fr"><img src="images/fr.png">&nbsp Français</a></li>
+                            <li><a href="?lang=en"><img src="images/en.png">&nbsp English</a></li>
+                            <li><a href="?lang=en"><img src="images/al.png">&nbsp Deutsch</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div><!--/.container-->
