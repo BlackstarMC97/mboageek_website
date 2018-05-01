@@ -44,20 +44,20 @@
             
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php"><?php echo L::accueil; ?></a></li>
-                    <li><a href="about-us.php"><?php echo L::apropos; ?></a></li>
-                    <li><a href="services.php"><?php echo L::services; ?></a></li>
-                    <li><a href="portfolio.php"><?php echo L::realisations; ?></a></li>
-                    <li><a href="pricing.php"><?php echo L::tarifs; ?></a></li>
-                    <li class="dropdown">
+                    <li id="li1"><a href="index.php"><?php echo L::accueil; ?></a></li>
+                    <li id="li2"><a href="about-us.php"><?php echo L::apropos; ?></a></li>
+                    <li id="li3"><a href="services.php"><?php echo L::services; ?></a></li>
+                    <li id="li4"><a href="portfolio.php"><?php echo L::realisations; ?></a></li>
+                    <li id="li5"><a href="pricing.php"><?php echo L::tarifs; ?></a></li>
+                    <li id="li6" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="blog-item.php">Blog Single</a></li>
                             <li><a href="blog.php">Blog Home</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.php">Contact</a></li>
-                    <li class="dropdown">
+                    <li id="li7"><a href="contact-us.php">Contact</a></li>
+                    <li id="li8" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/<?php echo $_GET['lang']; ?>.png" style=""> <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="?lang=fr"><img src="images/fr.png">&nbsp Français</a></li>

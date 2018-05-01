@@ -81,6 +81,10 @@
     <?php include("widgets/contact-info.php"); ?>
 
     <?php include("footer.php"); ?>
-    
+    <script type="text/javascript">
+        jQuery("#li1").addClass("active");
+    </script>
+
+
 </body>
 </html>
