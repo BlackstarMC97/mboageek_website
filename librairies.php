@@ -16,6 +16,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <link rel="shortcut icon" href="images/ico/favicon2.png">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     
 </head><!--/head-->

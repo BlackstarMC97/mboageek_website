@@ -4,11 +4,11 @@
             <div class="col-sm-8">
                 <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="pull-left">
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-phone" style="background-color:teal;"></i>
                     </div>
                     <div class="media-body">
-                        <h2>Have a question or need a custom quote?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                        <h2 style="color:teal;">Besoin d'un renseignement ou d'un devis personnalisé ?</h2>
+                        <p>Pour obtenir des réponses à vos préoccupations ou un devis gratuit conforme à vos besoins, n'hésitez pas à nous contacter au numéro (+237) 655 669 952 par appel téléphonique ou par appel Whatsapp.</p>
                     </div>
                 </div>
             </div>
