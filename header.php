@@ -1,3 +1,16 @@
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.0';
+    fjs.parentNode.insertBefore(js, fjs);
+}
+(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 <header id="header">
     <div class="top-bar">
         <div class="container">
@@ -19,12 +32,7 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
                         </ul>
-                        <div class="search">
-                            <form role="form">
-                                <input type="text" class="search-form" autocomplete="off" placeholder="<?php echo L::recherche.'...'; ?>">
-                                <i class="fa fa-search"></i>
-                            </form>
-                       </div>
+                        
                    </div>
                 </div>
             </div>
@@ -51,16 +59,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php echo L::services; ?> <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#"><?php echo L::service_devweb; ?></a></li>
-                            <li><a href="#"><?php echo L::service_dotnet; ?></a></li>
                             <li><a href="#"><?php echo L::service_marketing; ?></a></li>
                             <li><a href="#"><?php echo L::service_consulting; ?></a></li>
                             <li><a href="#"><?php echo L::service_embarque; ?></a></li>
+                            <li><a href="#"><?php echo L::service_dotnet; ?></a></li>
                             <li><a href="#"><?php echo L::service_ia; ?></a></li>
                         </ul>
                     </li>
                     <li id="li4"><a href="portfolio.php"><?php echo L::realisations; ?></a></li>
-                    <li id="li6"><a href="blog.php">Blog</a></li>
-                    <li id="li7"><a href="contact-us.php">Contact</a></li>
+                    <li id="li6"><a href="blog.php"><?php echo L::blog; ?></a></li>
+                    <li id="li7"><a href="contact-us.php"><?php echo L::contact; ?></a></li>
                     <li id="li8" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/<?php echo $_GET['lang']; ?>.png" style=""> <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">

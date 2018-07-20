@@ -3,22 +3,14 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="widget">
-                    <h3>Company</h3>
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">We are hiring</a></li>
-                        <li><a href="#">Meet the team</a></li>
-                        <li><a href="#">Copyright</a></li>
-                        <li><a href="#">Terms of use</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
+                    <img class="center-block img-responsive" src="images/logo-mboageek.png">
+                    
                 </div>    
             </div><!--/.col-md-3-->
 
             <div class="col-md-3 col-sm-6">
                 <div class="widget">
-                    <h3>Support</h3>
+                    <h3>Navigation</h3>
                     <ul>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Blog</a></li>
@@ -33,7 +25,7 @@
 
             <div class="col-md-3 col-sm-6">
                 <div class="widget">
-                    <h3>Developers</h3>
+                    <h3>Tweets recents</h3>
                     <ul>
                         <li><a href="#">Web Development</a></li>
                         <li><a href="#">SEO Marketing</a></li>
@@ -48,16 +40,8 @@
 
             <div class="col-md-3 col-sm-6">
                 <div class="widget">
-                    <h3>Our Partners</h3>
-                    <ul>
-                        <li><a href="#">Adipisicing Elit</a></li>
-                        <li><a href="#">Eiusmod</a></li>
-                        <li><a href="#">Tempor</a></li>
-                        <li><a href="#">Veniam</a></li>
-                        <li><a href="#">Exercitation</a></li>
-                        <li><a href="#">Ullamco</a></li>
-                        <li><a href="#">Laboris</a></li>
-                    </ul>
+                    <h3>Notre page Facebook</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fushideshi%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="300" style="border:none;" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>    
             </div><!--/.col-md-3-->
         </div>
@@ -72,10 +56,10 @@
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
-                    <li><a href="#"><?php echo L::accueil; ?></a></li>
-                    <li><a href="#"><?php echo L::apropos; ?></a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Haut de page</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Nous rejoindre</a></li>
+                    <li><a href="#">Plan du site</a></li>
                 </ul>
             </div>
         </div>

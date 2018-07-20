@@ -12,6 +12,8 @@
 
     <?php include("widgets/main-slider.php"); ?>
 
+    <?php include("widgets/intro.php"); ?>
+
     <?php include("widgets/feature.php"); ?>
 
     <?php include("widgets/recent-work.php"); ?>
@@ -37,12 +39,12 @@
         </div><!--/.container-->
     </section><!--/#middle-->
 
-    <?php include("widgets/partner.php"); ?>
+    <?php include("widgets/process.php"); ?>
 
     <?php include("widgets/contact-info.php"); ?>
 
     <?php include("footer.php"); ?>
-    
+
     <script type="text/javascript">
         jQuery("#li1").addClass("active");
     </script>

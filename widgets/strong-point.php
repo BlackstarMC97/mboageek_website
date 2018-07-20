@@ -1,5 +1,5 @@
 <div class="accordion">
-<h2>Pourquoi nous choisir ?</h2>
+<h2>Quels sont nos points forts ?</h2>
 <div class="panel-group" id="accordion1">
       <div class="panel panel-default">
         <div class="panel-heading active">
@@ -45,7 +45,7 @@
         </div>
         <div id="collapseThree1" class="panel-collapse collapse">
           <div class="panel-body">
-            Parce que disposer d’une présence sur internet devrait être à la portée de toute entreprise, nous nous assurons toujours ue nos services soient les moins chers  du marché afin de s’adapter aux bourses les plus modestes. 
+            Parce que disposer d’une présence sur internet devrait être à la portée de toute entreprise, nous nous assurons toujours que nos services soient les moins chers du marché afin de s’adapter aux bourses les plus modestes. 
           </div>
         </div>
       </div>

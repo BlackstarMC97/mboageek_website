@@ -18,5 +18,7 @@
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon2.png">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
     
 </head><!--/head-->

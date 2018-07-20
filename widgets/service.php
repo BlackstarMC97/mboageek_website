@@ -36,14 +36,14 @@
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="images/services/icon-csharpX.png">
+                        <img class="img-responsive" src="images/services/icon-consultX.png">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading"><?php echo ucwords(L::service_dotnet); ?></h3>
-                        <p><?php echo L::description_dotnet; ?></p>
+                        <h3 class="media-heading"><?php echo (L::service_consulting); ?></h3>
+                        <p><?php echo L::description_consulting; ?></p>
                     </div>
                 </div>
-            </div>  
+            </div>
 
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
@@ -60,14 +60,14 @@
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="images/services/icon-consultX.png">
+                        <img class="img-responsive" src="images/services/icon-csharpX.png">
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading"><?php echo (L::service_consulting); ?></h3>
-                        <p><?php echo L::description_consulting; ?></p>
+                        <h3 class="media-heading"><?php echo ucwords(L::service_dotnet); ?></h3>
+                        <p><?php echo L::description_dotnet; ?></p>
                     </div>
                 </div>
-            </div>
+            </div>  
 
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">

@@ -35,7 +35,7 @@
 
                         <div class="col-sm-6 hidden-xs animation animated-item-4" style="position:relative;">
                             <div class="slider-img">
-                                <img src="images/slider/mecnew.png" class="img-responsive">
+                                
                             </div>
                         </div>
 
@@ -43,7 +43,7 @@
                 </div>
             </div><!--/.item-->
 
-            <div class="item" style="background-image: url(images/slider/backgroundblue.jpg)">
+            <div class="item" style="background-image: url(images/slider/backgroundviolet.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="col-sm-6">
@@ -54,7 +54,7 @@
 
                         <div class="col-sm-6 hidden-xs animation animated-item-4">
                             <div class="slider-img">
-                                <img src="images/slider/mecnew.png" class="img-responsive">
+                                
                             </div>
                         </div>
 
