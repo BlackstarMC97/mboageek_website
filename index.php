@@ -20,7 +20,7 @@
 
     <?php include("widgets/service.php"); ?>
 
-    <section id="middle">
+    <section id="middle" style="background-image:url('images/bg-joy.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">
@@ -42,6 +42,8 @@
     <?php include("widgets/process.php"); ?>
 
     <?php include("widgets/contact-info.php"); ?>
+
+    <?php include("widgets/newsletter.php"); ?>
 
     <?php include("footer.php"); ?>
 

@@ -1,4 +1,4 @@
-<section id="feature" style="background-image:url('images/bg-soft.jpg');color:#4E4E4E;">
+<section id="feature" style="background-image:url('images/bg-mesh.jpg');color:#4E4E4E;">
     <div class="container">
        <div class="center wow fadeInDown">
             <h2><?php echo L::fonctionstitle; ?></h2>

@@ -836,7 +836,7 @@ input.search-form:hover {
 
 .panel-heading.active{
   /*background: #1f1f20;*/
-  background: #e5ab25;
+  background: #0b497a;
 }
 
 .panel-heading.active .panel-title>a{
@@ -854,7 +854,7 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
-  background: #0b497a;
+  background: #e5ab25;
   color: #fff;
 }
 
@@ -2575,4 +2575,16 @@ shortcodes page css
   font-size:48px;
   position:relative;
   top:10px;
+}
+
+.bs-social {
+  display: inline-block;
+  color: #fff;
+  background: #e5ab25;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+  padding: 0;
 }
