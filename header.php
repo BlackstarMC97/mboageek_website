@@ -15,17 +15,31 @@
     <div class="top-bar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-xs-4">
+                <div class="col-sm-2 col-xs-12">
                     <div class="top-number">
-                        <p>
-                            <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 653 747 134 </span>
-                            <span class="bs-toptext"><i class="fa fa-phone" style="margin-left:5%;"></i>  +237 655 669 952 </span>
-                            <span class="bs-toptext"><i class="fa fa-envelope" style="margin-left:5%;"></i>  contact@mboageek.com </span>
-                            <span class="bs-toptext"><i class="fa fa-map-marker" style="margin-left:5%;"></i>  Makepe Missoke, <?php echo L::villepays; ?></span>
-                        </p>
+                        <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 653 747 134 </span>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-8">
+                
+                <div class="col-sm-2 col-xs-12">
+                    <div class="top-number">
+                        <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 655 669 952 </span>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-xs-12">
+                    <div class="top-number">
+                        <span class="bs-toptext"><i class="fa fa-envelope"></i>  contact@mboageek.com </span>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-12">
+                    <div class="top-number">
+                        <span class="bs-toptext"><i class="fa fa-map-marker"></i>  Makepe Missoke, <?php echo L::villepays; ?></span>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2 col-xs-12">
                    <div class="social">
                         <ul class="social-share">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -82,3 +96,7 @@
     </nav><!--/nav-->
     
 </header><!--/header-->
+
+<?php 
+    //sprintf( '[footer_copyright before="%s "] &#x000B7; [footer_genesis_link url="http://www.mboageek.com/" before=""] &#x000B7', __( 'Copyright', 'genesis' ) );
+?>

@@ -13,8 +13,8 @@
     <section id="about-us">
         <div class="container">
 			<div class="center wow fadeInDown">
-				<h2>About Corlate</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+				<h2><?php echo L::agence_title; ?></h2>
+				<p class="lead"><?php echo L::agence_intro; ?></p>
 			</div>
 			
 			<!-- about us slider -->
@@ -29,7 +29,7 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
+							<img src="images/slider-mbg.jpg" class="img-responsive" alt=""> 
 					   </div>
 					   <div class="item">
 							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
@@ -54,8 +54,8 @@
 			<div class="skill-wrap clearfix">
 			
 				<div class="center wow fadeInDown">
-					<h2>Our Skill</h2>
-					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<h2><?php echo L::competence_title; ?></h2>
+					<p class="lead"><?php echo L::competence_intro; ?></p>
 				</div>
 				
 				<div class="row">
@@ -63,8 +63,8 @@
 					<div class="col-sm-3">
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="joomla-skill">                                   
-								<p><em>85%</em></p>
-								<p>Joomla</p>
+								<p><em>95%</em></p>
+								<p><?php echo L::service_devweb; ?></p>
 							</div>
 						</div>
 					</div>
@@ -72,8 +72,8 @@
 					 <div class="col-sm-3">
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="html-skill">                                  
-								<p><em>95%</em></p>
-								<p>HTML</p>
+								<p><em>60%</em></p>
+								<p><?php echo L::service_ia; ?></p>
 							</div>
 						</div>
 					</div>
@@ -81,8 +81,8 @@
 					<div class="col-sm-3">
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
 							<div class="css-skill">                                    
-								<p><em>80%</em></p>
-								<p>CSS</p>
+								<p><em>85%</em></p>
+								<p><?php echo L::service_dotnet; ?></p>
 							</div>
 						</div>
 					</div>
@@ -90,8 +90,8 @@
 					 <div class="col-sm-3">
 						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
 							<div class="wp-skill">
-								<p><em>90%</em></p>
-								<p>Wordpress</p>                                     
+								<p><em>75%</em></p>
+								<p><?php echo L::service_embarque; ?></p>                     
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@
 			<!-- our-team -->
 			<div class="team">
 				<div class="center wow fadeInDown">
-					<h2>Team of Corlate</h2>
+					<h2>L'équipe de MboaGeek</h2>
 					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</div>
 
@@ -116,7 +116,7 @@
 									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
-									<h4>Jhon Doe</h4>
+									<h4>PENAYE Cyrille</h4>
 									<h5>Founder and CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
@@ -144,7 +144,7 @@
 									<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
-									<h4>Jhon Doe</h4>
+									<h4>KUETE Jorel</h4>
 									<h5>Founder and CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
@@ -190,7 +190,7 @@
 								</div>
 
 								<div class="media-body">
-									<h4>Jhon Doe</h4>
+									<h4>NDOUMA Boris</h4>
 									<h5>Founder and CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
@@ -215,7 +215,7 @@
 									<a href="#"><img class="media-object" src="images/man4.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
-									<h4>Jhon Doe</h4>
+									<h4>KAMGA Nadia</h4>
 									<h5>Founder and CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>

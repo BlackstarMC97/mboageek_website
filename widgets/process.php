@@ -12,31 +12,31 @@
                 <li>
                     <div class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="center-block bs-process-img" style=""><span><i class="fa fa-user bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" style=""><?php echo L::methode_entrevue; ?></a>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalMeeting" style=""><?php echo L::methode_entrevue; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
                         <div class="center-block bs-process-img" style=""><span><i class="fa fa-calendar bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" style=""><?php echo L::methode_planning; ?></a>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPlanning" style=""><?php echo L::methode_planning; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1700ms">
                         <div class="center-block bs-process-img" style=""><span><i class="fa fa-picture-o bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" style=""><?php echo L::methode_prototypage; ?></a>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPrototyping" style=""><?php echo L::methode_prototypage; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="2400ms">
                         <div class="center-block bs-process-img" style=""><span><i class="fa fa-cogs bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" style=""><?php echo L::methode_realisation; ?></a>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalRealization" style=""><?php echo L::methode_realisation; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="3100ms">
                         <div class="center-block bs-process-img" style=""><span><i class="fa fa-thumbs-up bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" style=""><?php echo L::methode_deploiement; ?></a>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalDeployment" style=""><?php echo L::methode_deploiement; ?></a>
                     </div>
                 </li>
             </ul>
@@ -82,3 +82,94 @@
         </div>        
     </div><!--/.container-->
 </section><!--/#partner-->
+
+
+<!-- Modal Meeting -->
+<div class="modal fade" id="modalMeeting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Etape 1 : L'entrevue</h4>
+            </div>
+            <div class="modal-body">
+                Durant cette phase, 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><?php echo L::fermer; ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Planning -->
+<div class="modal fade" id="modalPlanning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Etape 2 : Le planning</h4>
+            </div>
+            <div class="modal-body">
+                Durant cette phase, 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><?php echo L::fermer; ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Prototyping -->
+<div class="modal fade" id="modalPrototyping" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Etape 3 : Le prototypage</h4>
+            </div>
+            <div class="modal-body">
+                Durant cette phase, 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><?php echo L::fermer; ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Realization -->
+<div class="modal fade" id="modalRealization" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Etape 4 : La réalisation</h4>
+            </div>
+            <div class="modal-body">
+                Durant cette phase, 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><?php echo L::fermer; ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Deployment -->
+<div class="modal fade" id="modalDeployment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Etape 5 : Le déploiement</h4>
+            </div>
+            <div class="modal-body">
+                Durant cette phase, 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><?php echo L::fermer; ?></button>
+            </div>
+        </div>
+    </div>
+</div>
