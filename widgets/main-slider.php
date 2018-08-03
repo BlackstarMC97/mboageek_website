@@ -15,9 +15,6 @@
                                 <h1 class="animation animated-item-1 text-center" style="border:1px solid #e5e5e5;border-radius:2px;background-color:#0b497a;padding:15px 10px;width:70%;margin:0 auto;position:relative;bottom:100px;opacity:0.3;">
                                     Donnez vie à tous vos projets de création web
                                 </h1>
-                                <h2> 
-                                    Ne cherchez plus, vous êtes à la bonne adresse
-                                </h2>
                             </div>
                         </div>
                         
@@ -28,9 +25,11 @@
             <div class="item" style="background-image: url(images/slider/background11.png)">
                 <div class="container">
                     <div class="row slide-margin">
-                        <div class="col-sm-6">
+                        <div class="">
                             <div class="carousel-content">
-                                
+                                <h1 class="animation animated-item-1 text-center" style="border:1px solid #e5e5e5;border-radius:2px;background-color:#0b497a;padding:15px 10px;width:70%;margin:0 auto;position:relative;bottom:100px;opacity:0.3;">
+                                    Plus qu'un prestataire, nous sommes votre partenaire
+                                </h1>
                             </div>
                         </div>
 
@@ -47,9 +46,11 @@
             <div class="item" style="background-image: url(images/slider/backgroundviolet.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
-                        <div class="col-sm-6">
+                        <div class="">
                             <div class="carousel-content">
-                                
+                                <h1 class="animation animated-item-1 text-center" style="border:1px solid #e5e5e5;border-radius:2px;background-color:#0b497a;padding:15px 10px;width:70%;margin:0 auto;position:relative;bottom:100px;opacity:0.3;">
+                                    Pour tous vos soucis dans le domaine des TIC
+                                </h1>
                             </div>
                         </div>
 

@@ -29,10 +29,10 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="images/slider-mbg.jpg" class="img-responsive" alt=""> 
+							<img src="images/slider-mbgk.jpg" class="img-responsive center-block" alt=""> 
 					   </div>
 					   <div class="item">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
+							<img src="images/slider-color.jpg" class="img-responsive" alt=""> 
 					   </div> 
 					   <div class="item">
 							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 

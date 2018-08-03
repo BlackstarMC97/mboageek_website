@@ -20,7 +20,7 @@
 
     <?php include("widgets/service.php"); ?>
 
-    <section id="middle" style="background-image:url('images/bg-joy.jpg');">
+    <section id="middle" style="">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">

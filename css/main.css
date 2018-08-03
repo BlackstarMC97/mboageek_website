@@ -1563,8 +1563,8 @@ ul.social_icons li  a i{
 
 .portfolio-items, 
 .portfolio-filter {
-  list-style: none outside none;
-  margin: 0 0 40px 0;
+  /*list-style: none outside none;*/
+  /*margin: 0 0 40px 0;*/
   padding: 0;
 }
 
@@ -1606,7 +1606,7 @@ ul.social_icons li  a i{
 
 .portfolio-item {
   margin: 0;
-  padding:0;
+  padding:10px 5px;
 }
 
 /* Start: Recommended Isotope styles */
@@ -2590,3 +2590,4 @@ shortcodes page css
   border-radius: 2px;
   padding: 0;
 }
+
