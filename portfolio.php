@@ -20,10 +20,10 @@
         
 
             <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">Tous les projets</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".webshow">Site vitrine</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".logiciel">Logiciel métier</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".design">Maquette et design</a></li>
+                <li><a class="btn btn-default active" href="#" data-filter="*"><?php echo L::portfolio_tous; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".webshow"><?php echo L::portfolio_site; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".logiciel"><?php echo L::portfolio_appweb; ?></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".design"><?php echo L::portfolio_webdesign; ?></a></li>
             </ul><!--/#portfolio-filter-->
 
             <div class="row">

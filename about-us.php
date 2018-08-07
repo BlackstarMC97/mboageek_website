@@ -17,88 +17,12 @@
 				<p class="lead"><?php echo L::agence_intro; ?></p>
 			</div>
 			
-			<!-- about us slider -->
-			<div id="about-slider">
-				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-				  	<ol class="carousel-indicators visible-xs">
-					    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-slider" data-slide-to="1"></li>
-					    <li data-target="#carousel-slider" data-slide-to="2"></li>
-				  	</ol>
-
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="images/slider-mbgk.jpg" class="img-responsive center-block" alt=""> 
-					   </div>
-					   <div class="item">
-							<img src="images/slider-color.jpg" class="img-responsive" alt=""> 
-					   </div> 
-					   <div class="item">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
-					   </div> 
-					</div>
-					
-					<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
-						<i class="fa fa-angle-left"></i> 
-					</a>
-					
-					<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
-						<i class="fa fa-angle-right"></i> 
-					</a>
-				</div> <!--/#carousel-slider-->
-			</div><!--/#about-slider-->
+			<div class="" style="margin-bottom:120px;">
+				<?php include('widgets/tab-wrap.php'); ?>
+			</div>
 			
 			
-			<!-- Our Skill -->
-			<div class="skill-wrap clearfix">
 			
-				<div class="center wow fadeInDown">
-					<h2><?php echo L::competence_title; ?></h2>
-					<p class="lead"><?php echo L::competence_intro; ?></p>
-				</div>
-				
-				<div class="row">
-		
-					<div class="col-sm-3">
-						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<div class="joomla-skill">                                   
-								<p><em>95%</em></p>
-								<p><?php echo L::service_devweb; ?></p>
-							</div>
-						</div>
-					</div>
-					
-					 <div class="col-sm-3">
-						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-							<div class="html-skill">                                  
-								<p><em>60%</em></p>
-								<p><?php echo L::service_ia; ?></p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-3">
-						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-							<div class="css-skill">                                    
-								<p><em>85%</em></p>
-								<p><?php echo L::service_dotnet; ?></p>
-							</div>
-						</div>
-					</div>
-					
-					 <div class="col-sm-3">
-						<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-							<div class="wp-skill">
-								<p><em>75%</em></p>
-								<p><?php echo L::service_embarque; ?></p>                     
-							</div>
-						</div>
-					</div>
-					
-				</div>
-	
-            </div><!--/.our-skill-->
 			
 
 			<!-- our-team -->
@@ -113,16 +37,16 @@
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="images/tof_naye.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4>PENAYE Cyrille</h4>
-									<h5>Founder and CEO</h5>
+									<h5>Fondateur et CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Ui</a></li>
-										<li class="btn"><a href="#">Ux</a></li>
-										<li class="btn"><a href="#">Photoshop</a></li>
+										<li class="btn"><a href="#">C#</a></li>
+										<li class="btn"><a href="#">IA</a></li>
+										<li class="btn"><a href="#">Consulting</a></li>
 									</ul>
 									
 									<ul class="social_icons">
@@ -141,16 +65,14 @@
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="images/tof_jo.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4>KUETE Jorel</h4>
-									<h5>Founder and CEO</h5>
+									<h5>Responsable commercial</h5>
 									<ul class="tag clearfix">
-										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Ui</a></li>
-										<li class="btn"><a href="#">Ux</a></li>
-										<li class="btn"><a href="#">Photoshop</a></li>
+										<li class="btn"><a href="#">Marketing</a></li>
+										<li class="btn"><a href="#">Electronique</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -186,17 +108,16 @@
 						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="images/tof_bogoss.jpg" alt=""></a>
 								</div>
 
 								<div class="media-body">
 									<h4>NDOUMA Boris</h4>
-									<h5>Founder and CEO</h5>
+									<h5>Infotronicien</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Ui</a></li>
-										<li class="btn"><a href="#">Ux</a></li>
-										<li class="btn"><a href="#">Photoshop</a></li>
+										<li class="btn"><a href="#">Electronique</a></li>
+										<li class="btn"><a href="#">Consulting</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -212,16 +133,15 @@
 						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object" src="images/man4.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="images/tof_so.jpg" alt=""></a>
 								</div>
 								<div class="media-body">
 									<h4>KAMGA Nadia</h4>
-									<h5>Founder and CEO</h5>
+									<h5>Community manager</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Ui</a></li>
-										<li class="btn"><a href="#">Ux</a></li>
-										<li class="btn"><a href="#">Photoshop</a></li>
+										<li class="btn"><a href="#">Marketing</a></li>
+										<li class="btn"><a href="#">SEO</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>

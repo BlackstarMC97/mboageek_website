@@ -2,51 +2,74 @@
     <div class="media">
         <div class="parrent pull-left">
             <ul class="nav nav-tabs nav-stacked">
-                <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
-                <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
-                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
-                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
-                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">2016 : A l'aube de l'aventure entreprenariale</a></li>
+                <li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">2017 : Des débuts difficiles, mais il faut tenir bon</a></li>
+                <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">2018 : Départ vers de nouveaux horizons plus actifs</a></li>
+                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">La vision de MboaGeek</a></li>
+                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Ce que MboaGeek attends de vous</a></li>
             </ul>
         </div>
 
         <div class="parrent media-body">
             <div class="tab-content">
-                <div class="tab-pane fade" id="tab1">
+                <div class="tab-pane fade active in" id="tab1">
                     <div class="media">
                        <div class="pull-left">
-                            <img class="img-responsive" src="images/tab2.png">
+                            <img class="img-responsive img-thumbnail" src="images/iconmbig.png" style="">
                         </div>
                         <div class="media-body">
-                             <h2>Adipisicing elit</h2>
-                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                             <h2>2016 - De l'idée à l'aventure</h2>
+                             <p>
+                                Après avoir constaté avec regret que le manque d'accompagnement des entrepreneurs dans le domaine de la technologie 
+                                conduit à beaucoup d'échecs, Cyrille et Blondeau, deux étudiants de l'IUT de Ngaoundéré se réunissent pour créer un concept :
+                                <strong>MboaGeek</strong>. 
+                                <br>
+                                Le but est de monter une équipe de jeunes techniciens de l'informatique compétente, dynamique et à moindre coût pour aider les porteurs de projets IT.
+                             </p>
                         </div>
                     </div>
                 </div>
 
-                 <div class="tab-pane fade active in" id="tab2">
+                 <div class="tab-pane fade" id="tab2">
                     <div class="media">
                        <div class="pull-left">
-                            <img class="img-responsive" src="images/tab1.png">
+                            <img class="img-responsive img-thumbnail" src="images/histoire3.jpg">
                         </div>
                         <div class="media-body">
-                             <h2>Adipisicing elit</h2>
-                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
+                             <h2>2017 - Des débuts difficles</h2>
+                             <p>
+                                Suite à l'obtention de leurs diplômes, l'équipe MboaGeek se réduit énormément mais est toujours active au sein de la communauté informatique 
+                                et gagne également plusieurs projets mais peine à se développer dû à son rayon d'action qui est faible. 
                              </p>
                         </div>
                     </div>
                  </div>
 
                  <div class="tab-pane fade" id="tab3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                    <div class="media">
+                       <div class="pull-left">
+                            <img class="img-responsive img-thumbnail" src="images/slider-mbgk.jpg">
+                        </div>
+                        <div class="media-body">
+                             <h2>2018 - Vers de nouveaux horizons</h2>
+                             <p>
+                                MboaGeek déménage à Douala, dans le but d'agrandir son rayon d'action, de développer son réseau et d'accroître son activité. Un nouveau recrutement est 
+                                également opéré et l'équipe réunie est désormais 100% opérationnelle, bien que fonctionnant la plupart du temps par travail à distance.
+                             </p>
+                        </div>
+                    </div>
                  </div>
                  
                  <div class="tab-pane fade" id="tab4">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                    <p>
+                       <img class="img-responsive img-thumbnail center-block" src="images/slider-test.jpg">
+                    </p>
                  </div>
 
                  <div class="tab-pane fade" id="tab5">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                    <p>
+                       <img class="img-responsive img-thumbnail center-block" src="images/webdev.jpg">
+                    </p>
                  </div>
             </div> <!--/.tab-content-->  
         </div> <!--/.media-body--> 
