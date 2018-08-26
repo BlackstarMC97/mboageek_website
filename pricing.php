@@ -11,9 +11,9 @@
     <?php include("header.php"); ?>
 
     <section class="pricing-page">
-        <div class="container">
-            <div class="center">  
-                <h2>Pricing Table</h2>
+        <div class="container" style="margin-bottom:90px;">
+            <div class="center wow fadeInDown">  
+                <h2>Coûts de nos services web</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>  
             <div class="pricing-area text-center">
@@ -21,16 +21,16 @@
                     <div class="col-sm-4 plan price-one wow fadeInDown">
                         <ul>
                             <li class="heading-one">
-                                <h1>Start Up</h1>
-                                <span>$6/Month</span>
+                                <h1>Devis et conseils</h1>
+                                <span>Gratuit</span>
                             </li>
-                            <li>5 Gb Disk Space</li>
-                            <li>1GB Dadicated Ram</li>
-                            <li>10 Addon Domain</li>
-                            <li>10 Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Devis de votre projet</li>
+                            <li>Conseils techniques</li>
+                            <li>Proposition d'idées</li>
+                            <li>Carnet d'adresses</li>
+                            <li>Recherche de partenaires</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
@@ -38,16 +38,16 @@
                     <div class="col-sm-4 plan price-two wow fadeInDown">
                         <ul>
                             <li class="heading-two">
-                                <h1>Standerd</h1>
-                                <span>$12/Month</span>
+                                <h1>Gestion de contenu</h1>
+                                <span>25.000 Fcfa/semaine</span>
                             </li>
-                            <li>10 Gb Disk Space</li>
-                            <li>2GB Dadicated Ram</li>
-                            <li>20 Addon Domain</li>
-                            <li>20 Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Rédaction d'aticles</li>
+                            <li>Optimisation SEO</li>
+                            <li>Correction de textes</li>
+                            <li>Social media marketing</li>
+                            <li>Blogging</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
@@ -56,50 +56,63 @@
                         <img src="images/ribon_one.png">
                         <ul>
                             <li class="heading-three">
-                                <h1>Premium</h1>
-                                <span>$24/Month</span>
+                                <h1>Maintenance</h1>
+                                <span>50.000 Fcfa/an</span>
                             </li>
-                            <li>50 Gb Disk Space</li>
-                            <li>8GB Dadicated Ram</li>
-                            <li>Unlimited Addon Domain</li>
-                            <li>Unlimited Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Refonte graphique du site</li>
+                            <li>Déboguage du code</li>
+                            <li>Ajout de fonctionnalités</li>
+                            <li>Hébergement du site web</li>
+                            <li>Formation sur l'interface</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
 
+                    
+                </div>
+            </div><!--/pricing-area-->
+        </div><!--/container-->
+
+        <div class="container">
+            <div class="center wow fadeInDown">  
+                <h2>Nos différents packs</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>  
+
+            <div class="pricing-area text-center">
+                <div class="row">
                     <div class="col-sm-6 col-md-3 plan price-four wow fadeInDown">
                         <ul>
                             <li class="heading-four">
-                                <h1>Basic</h1>
-                                <span>$3/Month</span>
+                                <h1>Basique</h1>
+                                <span>70.000 Fcfa</span>
                             </li>
-                            <li>5 Gb Disk Space</li>
-                            <li>1GB Dadicated Ram</li>
-                            <li>10 Addon Domain</li>
-                            <li>10 Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Page d'accueil</li>
+                            <li>Page des réalisations</li>
+                            <li>Page des services</li>
+                            <li>Page d'erreur 404</li>
+                            <li>Page à propos</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-sm-6 col-md-3 plan price-five wow fadeInDown">
+                    <div class="col-sm-6 col-md-3 plan price-two wow fadeInDown">
                         <ul>
-                            <li class="heading-five">
-                                <h1>Standerd</h1>
-                                <span>$6/Month</span>
+                            <li class="heading-two">
+                                <h1>Standard</h1>
+                                <span>120.000 Fcfa</span>
                             </li>
-                            <li>5 Gb Disk Space</li>
-                            <li>1GB Dadicated Ram</li>
-                            <li>10 Addon Domain</li>
-                            <li>10 Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Slider d'images animées</li>
+                            <li>Formulaire de contact</li>
+                            <li>Carte Google Maps</li>
+                            <li>Logo et image visuelle</li>
+                            <li>Gestion des actualités</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
@@ -109,38 +122,40 @@
                         <ul>
                             <li class="heading-six">
                                 <h1>Premium</h1>
-                                <span>$12/Month</span>
+                                <span>220.000 Fcfa</span>
                             </li>
-                            <li>5 Gb Disk Space</li>
-                            <li>1GB Dadicated Ram</li>
-                            <li>10 Addon Domain</li>
-                            <li>10 Email Account</li>
-                            <li>24/7 Support</li>
+                            <li>Système de newsletter</li>
+                            <li>Multilingue</li>
+                            <li>Shooting photo</li>
+                            <li>Charte graphique</li>
+                            <li>Blog intégré au site</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
 
-                     <div class="col-sm-6 col-md-3 plan price-seven wow fadeInDown">
+                     <div class="col-sm-6 col-md-3 plan price-three wow fadeInDown">
                         <ul>
-                            <li class="heading-seven">
-                                <h1>Developer</h1>
-                                <span>$19/Month</span>
+                            <li class="heading-three">
+                                <h1>Personnalisé</h1>
+                                <span>à partir de 250.000 Fcfa</span>
                             </li>
-                            <li>5 Gb Disk Space</li>
-                            <li>1GB Dadicated Ram</li>
-                            <li>10 Addon Domain</li>
-                            <li>10 Email Account</li>
+                            <li>Application web</li>
+                            <li>Boutique en ligne</li>
+                            <li>Logiciel métier</li>
+                            <li>Fonctionnalité complexe</li>
                             <li>24/7 Support</li>
                             <li class="plan-action">
-                                <a href="" class="btn btn-primary">Sign up</a>
+                                <a href="#" class="btn btn-primary">Détails</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div><!--/pricing-area-->
-        </div><!--/container-->
+            </div>
+
+            
+        </div>
     </section><!--/pricing-page-->
            
     <?php include("footer.php"); ?>
@@ -148,7 +163,7 @@
         $('.carousel').carousel()
     </script>
     <script type="text/javascript">
-        jQuery("#li5").addClass("active");
+        jQuery("#li3").addClass("active");
     </script>
 </body>
 </html>

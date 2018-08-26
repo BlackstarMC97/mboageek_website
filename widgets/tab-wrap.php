@@ -5,8 +5,8 @@
                 <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">2016 : A l'aube de l'aventure entreprenariale</a></li>
                 <li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">2017 : Des débuts difficiles, mais il faut tenir bon</a></li>
                 <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">2018 : Départ vers de nouveaux horizons plus actifs</a></li>
-                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">La vision de MboaGeek</a></li>
-                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Ce que MboaGeek attends de vous</a></li>
+                <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Quelques statistiques de l'entreprise</a></li>
+                <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Nos leaders sprituels</a></li>
             </ul>
         </div>
 

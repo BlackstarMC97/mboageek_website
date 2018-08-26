@@ -12,20 +12,50 @@
 
     <section id="about-us">
         <div class="container">
-			<div class="center wow fadeInDown">
-				<h2><?php echo L::agence_title; ?></h2>
-				<p class="lead"><?php echo L::agence_intro; ?></p>
+			<!-- Our-startup -->
+			<div class="startup" style="margin-bottom:120px;">
+				<div class="center wow fadeInDown">
+					<h2><?php echo L::presentation_title; ?></h2>
+					<p class="lead"><?php echo L::presentation_intro; ?></p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2><strong><?php echo L::presentation_qui; ?></strong></h2>
+						<p style="font-size:1.1em;">
+							<?php echo L::presentation_phrase1; ?> 
+							<br>
+							<?php echo L::presentation_phrase2; ?>
+							<br>
+							<ul style="font-weight:bold;">
+								<li><?php echo L::presentation_site; ?></li>
+								<li><?php echo L::presentation_logiciel; ?></li>
+								<li><?php echo L::presentation_marketing; ?></li>
+								<li><?php echo L::presentation_conseils; ?></li>
+							</ul>
+
+						</p>
+					</div>
+
+					<div class="col-md-6">
+						<img src="images/121.jpg" class="img-responsive img-thumbnail">
+					</div>
+				</div>
 			</div>
-			
-			<div class="" style="margin-bottom:120px;">
+
+
+
+			<div class="story" style="margin-bottom:120px;">
+				<div class="center wow fadeInDown">
+					<h2><?php echo L::agence_title; ?></h2>
+					<p class="lead"><?php echo L::agence_intro; ?></p>
+				</div>
+				
 				<?php include('widgets/tab-wrap.php'); ?>
 			</div>
 			
-			
-			
-			
 
-			<!-- our-team -->
+			<!-- Our-team -->
 			<div class="team">
 				<div class="center wow fadeInDown">
 					<h2>L'équipe de MboaGeek</h2>
@@ -155,6 +185,7 @@
 					</div>
 				</div>	<!--/.row-->
 			</div><!--section-->
+
 		</div><!--/.container-->
     </section><!--/about-us-->
 	

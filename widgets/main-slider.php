@@ -33,7 +33,7 @@
                 </div>
             </div><!--/.item-->
 
-            <div class="item" style="background-image: url(images/slider/bg-tech.jpg)">
+            <div class="item" style="background-image: url(images/slider/bg-keys.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="">

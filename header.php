@@ -68,17 +68,9 @@
                 <ul class="nav navbar-nav">
                     <li id="li1"><a href="index.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::accueil; ?></a></li>
                     <li id="li2"><a href="about-us.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::apropos; ?></a></li>
-                    <li id="li3" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php echo L::services; ?> <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><?php echo L::service_devweb; ?></a></li>
-                            <li><a href="#"><?php echo L::service_marketing; ?></a></li>
-                            <li><a href="#"><?php echo L::service_consulting; ?></a></li>
-                            <li><a href="#"><?php echo L::service_embarque; ?></a></li>
-                            <li><a href="#"><?php echo L::service_dotnet; ?></a></li>
-                            <li><a href="#"><?php echo L::service_ia; ?></a></li>
-                        </ul>
-                    </li>
+                    
+                    <li id="li3"><a href="pricing.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::tarifs; ?></a></li>
+
                     <li id="li4"><a href="portfolio.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::realisations; ?></a></li>
                     <li id="li6"><a href="blog.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::blog; ?></a></li>
                     <li id="li7"><a href="contact-us.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::contact; ?></a></li>
