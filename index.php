@@ -18,7 +18,7 @@
 
     <?php include("widgets/recent-work.php"); ?>
 
-    <?php include("widgets/service.php"); ?>
+    <?php //include("widgets/benefits.php"); ?>
 
     <section id="middle" style="">
         <div class="container">

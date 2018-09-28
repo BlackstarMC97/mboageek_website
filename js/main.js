@@ -3,7 +3,7 @@ jQuery(function($) {'use strict',
 	//#main-slider
 	$(function(){
 		$('#main-slider.carousel').carousel({
-			interval: 8000
+			interval: 20000
 		});
 	});
 
@@ -40,17 +40,22 @@ jQuery(function($) {'use strict',
 
 	// Contact form
 	var form = $('#main-contact-form');
-	form.submit(function(event){
+	var button = $('#submit-form-buttons');
+	button.click(function(event){
 		event.preventDefault();
-		var form_status = $('<div class="form_status"></div>');
+		var form_status = $('<div></div>');
 		$.ajax({
-			url: $(this).attr('action'),
-
-			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+			url: "sendemail.php",
+			type: 'POST',
+			dataType: 'json',
+			data: ({name: 'John', email:'johncorleone@gmail.com', subject: 'You are a sucker', message: 'Bozos'}),
+			complete: function(data){
+				//form_status.html('<p class="alert alert-success" role="alert">' + data.message + '</p>').delay(3000).fadeOut();
+				console.log(data.message);
+			},
+			error: function(err) {
+				console.log(err);
 			}
-		}).done(function(data){
-			form_status.html('<p class="text-success">' + data.message + '</p>').delay(3000).fadeOut();
 		});
 	});
 
@@ -68,3 +73,9 @@ jQuery(function($) {'use strict',
 		social_tools: false
 	});	
 });
+
+/*
+.done(function(data){
+			form_status.html('<p class="alert alert-success" role="alert">' + data.message + '</p>').delay(3000).fadeOut();
+		})
+*/

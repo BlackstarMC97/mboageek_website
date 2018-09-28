@@ -1,4 +1,4 @@
-<section id="" style="background-image:url('images/partners/bg-partner.jpg');border-top:1px groove #0b497a;padding-top:30px;padding-bottom:0px;">
+<section id="" style="background-image:url('<?= $baseUrl ?>images/partners/bg-partner.jpg');border-top:1px groove #0b497a;padding-top:30px;padding-bottom:0px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

@@ -6,7 +6,7 @@
         <br>
         <div class="media testimonial-inner">
           <div class="pull-left">
-              <img class="img-responsive img-thumbnail img-circle" src="images/photo_tchotsoua.jpg">
+              <img class="img-responsive img-thumbnail img-circle" src="<?= $baseUrl ?>images/photo_tchotsoua.jpg">
           </div>
           <div class="media-body" style="background-color:white;padding:5px;border-radius:3px;">
               <p><?php echo L::tchotsoua_texte; ?></p>
@@ -16,7 +16,7 @@
 
         <div class="media testimonial-inner">
           <div class="pull-left">
-              <img class="img-responsive img-thumbnail img-circle" src="images/photo_choake.jpg">
+              <img class="img-responsive img-thumbnail img-circle" src="<?= $baseUrl ?>images/photo_choake.jpg">
           </div>
           <div class="media-body" style="background-color:white;padding:5px;border-radius:3px;">
               <p><?php echo L::choake_texte; ?></p>
@@ -26,7 +26,7 @@
 
         <div class="media testimonial-inner">
           <div class="pull-left">
-              <img class="img-responsive img-thumbnail img-circle" src="images/photo_fotsing.jpg">
+              <img class="img-responsive img-thumbnail img-circle" src="<?= $baseUrl ?>images/photo_fotsing.jpg">
           </div>
           <div class="media-body" style="background-color:white;padding:5px;border-radius:3px;">
               <p><?php echo L::fotsing_texte; ?></p>

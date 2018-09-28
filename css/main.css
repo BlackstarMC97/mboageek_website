@@ -2591,3 +2591,15 @@ shortcodes page css
   padding: 0;
 }
 
+.navbar-inverse .navbar-toggle {
+  background-color: #e5ab25;
+  border-color: #e5e5e5;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #0b497a;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}

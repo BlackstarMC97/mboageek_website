@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+ErrorDocument 404 /MboaGeek/404.php
+
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^(en|fr|de)$ index.php?lang=$1 [NC,L]
+RewriteRule ^portfolio portfolio.php [NC,L]
+RewriteRule ^about about-us.php [NC,L]
+RewriteRule ^pricing pricing.php [NC,L]
+RewriteRule ^contact contact-us.php [NC,L]
+RewriteRule ^post blog-item.php [NC,L]
+RewriteRule ^(en|fr|de)/([0-9a-zA-Z]+)$ $2?lang=$1 [NC,L]
+

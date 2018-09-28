@@ -1,9 +1,9 @@
 <section id="bottom">
     <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
                 <div class="widget">
-                    <img class="center-block img-responsive pull-left" src="images/logo-mboageek.png" style="width:85%;position:relative;bottom:15px;right:5px;">
+                    <img class="center-block img-responsive pull-left" src="<?= $baseUrl ?>images/logo-mboageek.png" style="width:85%;position:relative;bottom:15px;right:5px;">
                     <br>
                     <p style="">
                         <?php echo L::mboageek; ?>
@@ -24,7 +24,7 @@
                 </div>    
             </div><!--/.col-md-3-->
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
                 <div class="widget">
                     <h3><?php echo L::navigation; ?></h3>
                     <ul>
@@ -42,10 +42,10 @@
                 </div>    
             </div><!--/.col-md-3-->
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
                 <div class="widget">
                     <h3><?php echo L::tweets; ?></h3>
-                    <a class="twitter-timeline" data-height="300" href="https://twitter.com/PenayeCyrille?ref_src=twsrc%5Etfw">Tweets <?php echo L::par; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/PenayeCyrille?ref_src=twsrc%5Etfw">Tweets <?php echo L::par; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>    
             </div><!--/.col-md-3-->
 
@@ -71,16 +71,16 @@
                     <li><a href="#"><?php echo L::mentionslegales; ?></a></li>
                     <li><a href="#"><?php echo L::nousrejoindre; ?></a></li>
                     <li><a href="#"><?php echo L::plandusite; ?></a></li>
-                    <li><a href="#"> <img src="images\MboaGeek_Google_Partner.png" style="height:50px;"> </a></li>
+                    <li><a href="#"> <img src="<?= $baseUrl ?>images/MboaGeek_Google_Partner.png" style="height:50px;"> </a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer><!--/#footer-->
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/wow.min.js"></script>
+<script src="<?= $baseUrl ?>js/jquery.js"></script>
+<script src="<?= $baseUrl ?>js/bootstrap.min.js"></script>
+<script src="<?= $baseUrl ?>js/jquery.prettyPhoto.js"></script>
+<script src="<?= $baseUrl ?>js/jquery.isotope.min.js"></script>
+<script src="<?= $baseUrl ?>js/main.js"></script>
+<script src="<?= $baseUrl ?>js/wow.min.js"></script>

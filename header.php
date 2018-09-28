@@ -1,13 +1,13 @@
 <div id="fb-root"></div>
 <script>
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en/sdk.js#xfbml=1&version=v3.0';
-    fjs.parentNode.insertBefore(js, fjs);
-}
-(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en/sdk.js#xfbml=1&version=v3.0';
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
 </script>
 
 
@@ -61,25 +61,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><img src="images/logo-mboa-geek.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?= $baseUrl ?>index.php"><img src="<?= $baseUrl ?>images/logo-mboa-geek.png" alt="logo"></a>
             </div>
             
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li id="li1"><a href="index.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::accueil; ?></a></li>
-                    <li id="li2"><a href="about-us.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::apropos; ?></a></li>
+                    <li id="li1"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/home"><?php echo L::accueil; ?></a></li>
+                    <li id="li2"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/about"><?php echo L::apropos; ?></a></li>
                     
-                    <li id="li3"><a href="pricing.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::tarifs; ?></a></li>
+                    <li id="li3"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/pricing"><?php echo L::tarifs; ?></a></li>
 
-                    <li id="li4"><a href="portfolio.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::realisations; ?></a></li>
-                    <li id="li6"><a href="blog.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::blog; ?></a></li>
-                    <li id="li7"><a href="contact-us.php?lang=<?php echo $_GET['lang']; ?>"><?php echo L::contact; ?></a></li>
+                    <li id="li4"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/portfolio"><?php echo L::realisations; ?></a></li>
+                    <li id="li6"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/blog"><?php echo L::blog; ?></a></li>
+                    <li id="li7"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/contact"><?php echo L::contact; ?></a></li>
                     <li id="li8" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/<?php echo $_GET['lang']; ?>.png" style=""> <i class="fa fa-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="<?= $baseUrl ?>images/<?php echo $_GET['lang']; ?>.png"> <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="?lang=fr"><img src="images/fr.png">&nbsp Français</a></li>
-                            <li><a href="?lang=en"><img src="images/en.png">&nbsp English</a></li>
-                            <li><a href="?lang=en"><img src="images/al.png">&nbsp Deutsch</a></li>
+                            <li><a href="../<?php echo $_GET['lang']; ?>/"><img src="<?= $baseUrl ?>images/fr.png">&nbsp Français</a></li>
+                            <li><a href="?lang=en"><img src="<?= $baseUrl ?>images/en.png">&nbsp English</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -88,7 +87,3 @@
     </nav><!--/nav-->
     
 </header><!--/header-->
-
-<?php 
-    //sprintf( '[footer_copyright before="%s "] &#x000B7; [footer_genesis_link url="http://www.mboageek.com/" before=""] &#x000B7', __( 'Copyright', 'genesis' ) );
-?>

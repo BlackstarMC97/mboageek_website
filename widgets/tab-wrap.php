@@ -15,7 +15,7 @@
                 <div class="tab-pane fade active in" id="tab1">
                     <div class="media">
                        <div class="pull-left">
-                            <img class="img-responsive img-thumbnail" src="images/iconmbig.png" style="">
+                            <img class="img-responsive img-thumbnail" src="<?= $baseUrl ?>images/iconmbig.png" style="">
                         </div>
                         <div class="media-body">
                              <h2>2016 - De l'idée à l'aventure</h2>
@@ -33,7 +33,7 @@
                  <div class="tab-pane fade" id="tab2">
                     <div class="media">
                        <div class="pull-left">
-                            <img class="img-responsive img-thumbnail" src="images/histoire3.jpg">
+                            <img class="img-responsive img-thumbnail" src="<?= $baseUrl ?>images/histoire3.jpg">
                         </div>
                         <div class="media-body">
                              <h2>2017 - Des débuts difficles</h2>
@@ -48,7 +48,7 @@
                  <div class="tab-pane fade" id="tab3">
                     <div class="media">
                        <div class="pull-left">
-                            <img class="img-responsive img-thumbnail" src="images/slider-mbgk.jpg">
+                            <img class="img-responsive img-thumbnail" src="<?= $baseUrl ?>images/slider-mbgk.jpg">
                         </div>
                         <div class="media-body">
                              <h2>2018 - Vers de nouveaux horizons</h2>
@@ -62,16 +62,16 @@
                  
                  <div class="tab-pane fade" id="tab4">
                     <p>
-                       <img class="img-responsive img-thumbnail center-block" src="images/slider-test.jpg">
+                       <img class="img-responsive img-thumbnail center-block" src="<?= $baseUrl ?>images/slider-test.jpg">
                     </p>
                  </div>
 
                  <div class="tab-pane fade" id="tab5">
                     <p>
-                       <img class="img-responsive img-thumbnail center-block" src="images/webdev.jpg">
+                       <img class="img-responsive img-thumbnail center-block" src="<?= $baseUrl ?>images/webdev.jpg">
                     </p>
                  </div>
             </div> <!--/.tab-content-->  
         </div> <!--/.media-body--> 
     </div> <!--/.media-->     
-</div><!--/.tab-wrap-->               
+</div><!--/.tab-wrap-->
