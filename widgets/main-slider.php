@@ -11,12 +11,15 @@
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="" style="margin:0 10px;">
-                            <span class="" style="background-color:green;color:white;padding:20px;display:inline-block;border-radius:50% 50%;font-size:0.9em;position:absolute;top:5%;left:75%;text-align:center;">50% de réduction jusqu'au <br>durant le mois d'octobre</span>
+                            <!-- 
+                            <span class="" style="background-color:green;color:white;padding:20px;display:inline-block;border-radius:50% 50%;font-size:0.9em;position:absolute;top:5%;left:75%;text-align:center;">50% de réduction <br>avant janvier 2018</span>
+                            -->
+                            
                             <div class="carousel-content">
-                                <h1 style="background-color:#0b497a;padding:15px;display:inline-block;text-align:center;">Créez votre site vitrine à partir de 70.000 Fcfa</h1>
-                                <p style="color:white;font-size:1.3em;">Et rejoignez des milliers d'entrepreneurs qui ont choisi d'entrer dans l'ère du numérique...</p>
+                                <h1 style="background-color:#0b497a;padding:15px;display:inline-block;text-align:center;"><?php echo L::slider_puv; ?></h1>
+                                <p style="color:white;font-size:1.3em;"><?php echo L::slider_accroche; ?></p>
                                 <div class="text-center" style="margin-top:10%;">
-                                    <a href="#" class="btn" style="background-color:red;color:white;font-size:1.5em;border-radius:0;">J'AI BESOIN D'UN SITE WEB</a>
+                                    <a href="#" class="btn" style="background-color:red;color:white;font-size:1.5em;border-radius:0;"><?php echo L::slider_besoin; ?></a>
                                     
                                 </div>
                             </div>

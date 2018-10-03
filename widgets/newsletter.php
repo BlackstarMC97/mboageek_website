@@ -9,7 +9,7 @@
                         <div class="input-group col-sm-7">
                             <input type="email" class="form-control" id="inputEmail3" placeholder="<?php echo L::newsletter_intro; ?>" style="margin-left:5px;">
                             <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button" style="position:relative;bottom:11px;margin-right:5px;"><?php echo L::envoyer; ?> <i class="fa fa-mail-forward"></i></button>
+                                <button class="btn" type="button" style="color:white;background-color:red;border:1px solid white;"><?php echo L::envoyer; ?> <i class="fa fa-mail-forward"></i></button>
                             </span>
                         </div>
                     </div>

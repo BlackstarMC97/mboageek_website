@@ -162,7 +162,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1>Vous ne trouvez pas une formule qui vous corresponds ? </h1>
+                    <h1></h1>
                     <span style="color:white;">Cliquez le bouton ci-dessous pour nous faire part de votre budget et de vos préoccupations.</span>
                     <div class="text-center">
                         <a href="#" class="btn btn-lg btn-primary" style="background-color:red;font-size:1.5em;margin-bottom:10px;">Contactez-nous</a>

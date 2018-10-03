@@ -1,4 +1,4 @@
-<section id="feature" style="background:linear-gradient(to bottom,white,lightgrey);color:#4E4E4E;border-bottom:1px #e5e5e5 solid;">
+<section id="feature" style="color:#4E4E4E;border-bottom:1px #e5e5e5 solid;" class="bg-grey">
     <div class="container">
        <div class="center wow fadeInDown">
             <h2><?php echo L::fonctionstitle; ?></h2>

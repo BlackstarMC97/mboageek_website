@@ -215,7 +215,7 @@
 		</div><!--/.container-->
     </section><!--/about-us-->
 	
-	<?php echo include('widgets/newsletter.php'); ?>
+	<?php include('widgets/newsletter.php'); ?>
     
     <?php include("footer.php"); ?>
     

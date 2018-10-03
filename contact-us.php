@@ -19,7 +19,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12" style="margin:0px;">
-                        <?php echo var_dump($_SERVER); ?>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.6835780293277!2d9.753113814109929!3d4.084692797029838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dda42a1f22f%3A0x835c8d5a8329888d!2sMakepe+Rhone+Poulenc!5e0!3m2!1sfr!2scm!4v1519998948838" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <!-- 
+
+                        -->
                     </div>
 
                     

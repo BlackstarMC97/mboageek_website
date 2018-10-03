@@ -51,6 +51,10 @@
                 </div>
             </div>   
 
+            <div class="text-center">
+                <a class="btn btn-lg btn-primary" style="margin-top:10px;">Toutes nos réalisations</a>
+            </div>
+            
             
         </div><!--/.row-->
     </div><!--/.container-->
