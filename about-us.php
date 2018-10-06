@@ -79,8 +79,8 @@
 									</ul>
 									
 									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li> 
 									</ul>
 								</div>
 							</div><!--/.media -->
@@ -103,8 +103,8 @@
 										<li class="btn"><a href="#">Graphisme</a></li>
 									</ul>
 									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li> 
 									</ul>
 								</div>
 							</div><!--/.media -->
@@ -147,8 +147,8 @@
 										<li class="btn"><a href="#">Consulting</a></li>
 									</ul>
 									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li> 
 									</ul>
 								</div>
 							</div><!--/.media -->
@@ -170,8 +170,8 @@
 										<li class="btn"><a href="#">SEO</a></li>
 									</ul>
 									<ul class="social_icons">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 									</ul>
 								</div>
 							</div><!--/.media -->
@@ -181,8 +181,8 @@
 				</div>	<!--/.row-->
 
 				<!-- technologies -->
-				<div class="technologies" style="margin-bottom:50px;margin-top:120px;">
-					<div class="center wow fadeInDown">
+				<div class="technologies wow fadeInDown" style="margin-bottom:50px;margin-top:120px;">
+					<div class="center">
 						<h2><?php echo L::tech_title; ?></h2>
 						<p class="lead"><?php echo L::tech_intro; ?></p>
 					</div>

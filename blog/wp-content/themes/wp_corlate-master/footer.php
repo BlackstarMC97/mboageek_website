@@ -60,7 +60,7 @@ $footer_links = get_option( 'wp_corlate_footer_links' );
 
         <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
             <div class="widget">
-                <h3><?php echo "Tweets"; ?></h3>
+                <h3><?php echo "Tweets recents"; ?></h3>
                 <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/PenayeCyrille?ref_src=twsrc%5Etfw">Tweets <?php echo "de"; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>    
         </div><!--/.col-md-3-->

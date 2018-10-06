@@ -44,55 +44,48 @@
     <div class="top-bar">
         <div class="container">
             <div class="row">
+    <div class="col-sm-2 col-xs-12">
+        <div class="top-number">
+            <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 653 747 134 </span>
+        </div>
+    </div>
+    
+    <div class="col-sm-2 col-xs-12">
+        <div class="top-number">
+            <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 655 669 952 </span>
+        </div>
+    </div>
+    
+    <div class="col-sm-2 col-xs-12">
+        <div class="top-number">
+            <span class="bs-toptext"><i class="fa fa-envelope"></i>  contact@mboageek.com </span>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-xs-4">
-                    <?php
-                    $contact_support = get_option('wp_corlate_contact_support');
-                    if (!empty($contact_support)):
-                        ?>
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i> <?php echo $contact_support ?></p>
-                        </div>
-                    <?php endif ?>
-                </div>
+				<div class="col-sm-2 col-xs-12">
+    <div class="top-number">
+        <span class="bs-toptext"><i class="fa fa-map-marker"></i>  <?php echo "Douala, Cameroun"; ?></span>
+    </div>
+</div>
 
-                <div class="col-sm-6 col-xs-8">
-                    <div class="social">
-                        <ul class="social-share">
-                            <?php
-                            $facebook = get_option('wp_corlate_facebook_url');
-                            if (!empty($facebook)) {
-                                ?>
-                                <li><a target="_blank" href="<?php echo $facebook ?>"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <?php
-                            }
-                            $twitter = get_option('wp_corlate_twitter_url');
-                            if (!empty($twitter)) {
-                                ?>
-                                <li><a target="_blank" href="<?php echo $twitter ?>"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <?php
-                            }
-                            $github = get_option('wp_corlate_github_url');
-                            if (!empty($github)) {
-                                ?>
-                                <li><a target="_blank" href="<?php echo $github ?>"><i class="fa fa-github"></i></a>
-                                </li>
-                                <?php
-                            }
-                            ?>
-                        </ul>
-                        <div class="search">
-                            <form role="search" method="get" id="searchform" class="searchform"
-                                  action="<?php echo esc_url(home_url('/')); ?>">
-                                <input type="text" name="s" id="s" class="search-form" autocomplete="off"
-                                       placeholder="Search">
-                                <i class="fa fa-search"></i>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="col-sm-4 col-xs-12">
+        <div class="social">
+            <ul class="social-share">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+            </ul>
+            <div class="search">
+                <form role="search" method="get" id="searchform" class="searchform"
+                      action="<?php echo esc_url(home_url('/')); ?>">
+                    <input type="text" name="s" id="s" class="search-form" autocomplete="off"
+                           placeholder="Search">
+                    <i class="fa fa-search"></i>
+                </form>
             </div>
+        </div>
+    </div>
+</div>
         </div><!--/.container-->
     </div><!--/.top-bar-->
 

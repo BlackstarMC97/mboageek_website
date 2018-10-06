@@ -43,7 +43,7 @@
 
                 <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="feature-wrap">
-                        <i class="fa fa-comments-o"></i>
+                        <i class="fa fa-comments"></i>
                         <h2><?php echo L::fonction_conseil; ?></h2>
                         <h3><?php echo L::description_conseil; ?></h3>
                     </div>

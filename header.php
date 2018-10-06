@@ -23,28 +23,28 @@
                 
                 <div class="col-sm-2 col-xs-12">
                     <div class="top-number">
-                        <span class="bs-toptext"><i class="fa fa-phone"></i>  +237 655 669 952 </span>
+                        <span class="bs-toptext"><i class="fab fa-whatsapp"></i>  +237 655 669 952 </span>
                     </div>
                 </div>
                 
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-2 col-xs-12">
                     <div class="top-number">
                         <span class="bs-toptext"><i class="fa fa-envelope"></i>  contact@mboageek.com </span>
                     </div>
                 </div>
 
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-2 col-xs-12">
                     <div class="top-number">
-                        <span class="bs-toptext"><i class="fa fa-map-marker"></i>  Makepe Missoke, <?php echo L::villepays; ?></span>
+                        <span class="bs-toptext"><i class="fa fa-map-marker"></i>  <?php echo L::villepays; ?></span>
                     </div>
                 </div>
                 
-                <div class="col-sm-2 col-xs-12">
+                <div class="col-sm-4 col-xs-12">
                    <div class="social">
                         <ul class="social-share">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li> 
                         </ul>
                    </div>
                 </div>
@@ -66,18 +66,18 @@
             
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li id="li1"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/home"><?php echo L::accueil; ?></a></li>
-                    <li id="li2"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/about"><?php echo L::apropos; ?></a></li>
+                    <li id="li1"><a href="<?= $baseUrl ?>home?lang=<?= $_GET['lang']; ?>"><?php echo L::accueil; ?></a></li>
+                    <li id="li2"><a href="<?= $baseUrl ?>about?lang=<?= $_GET['lang']; ?>"><?php echo L::apropos; ?></a></li>
                     
-                    <li id="li3"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/pricing"><?php echo L::tarifs; ?></a></li>
+                    <li id="li3"><a href="<?= $baseUrl ?>pricing?lang=<?= $_GET['lang']; ?>"><?php echo L::tarifs; ?></a></li>
 
-                    <li id="li4"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/portfolio"><?php echo L::realisations; ?></a></li>
-                    <li id="li6"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/blog"><?php echo L::blog; ?></a></li>
-                    <li id="li7"><a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/contact"><?php echo L::contact; ?></a></li>
+                    <li id="li4"><a href="<?= $baseUrl ?>portfolio?lang=<?= $_GET['lang']; ?>"><?php echo L::realisations; ?></a></li>
+                    <li id="li6"><a href="<?= $baseUrl ?>blog"><?php echo L::blog; ?></a></li>
+                    <li id="li7"><a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>"><?php echo L::contact; ?></a></li>
                     <li id="li8" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="<?= $baseUrl ?>images/<?php echo $_GET['lang']; ?>.png"> <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../<?php echo $_GET['lang']; ?>/"><img src="<?= $baseUrl ?>images/fr.png">&nbsp Français</a></li>
+                            <li><a href="?lang=fr"><img src="<?= $baseUrl ?>images/fr.png">&nbsp Français</a></li>
                             <li><a href="?lang=en"><img src="<?= $baseUrl ?>images/en.png">&nbsp English</a></li>
                         </ul>
                     </li>

@@ -158,14 +158,14 @@
         </div>
     </section><!--/pricing-page-->
     
-    <section id="" style="background-image:url('<?= $baseUrl ?>images/partners/bg-partner.jpg');border-top:1px groove #0b497a;padding-top:30px;padding-bottom:0px;">
+    <section style="background-image:url('<?= $baseUrl ?>images/partners/bg-partner.jpg');border-top:1px groove #0b497a;padding-top:30px;padding-bottom:0px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1></h1>
-                    <span style="color:white;">Cliquez le bouton ci-dessous pour nous faire part de votre budget et de vos préoccupations.</span>
+                    <h1><?php echo L::prix_question; ?></h1>
+                    <span style="color:white;"><?php echo L::prix_proposition2; ?></span>
                     <div class="text-center">
-                        <a href="#" class="btn btn-lg btn-primary" style="background-color:red;font-size:1.5em;margin-bottom:10px;">Contactez-nous</a>
+                        <a href="#" class="btn btn-lg btn-primary" style="background-color:red;font-size:1.5em;margin-bottom:40px;"><?php echo L::contacteznous; ?></a>
                     </div>
                 </div>
             </div>

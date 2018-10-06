@@ -52,7 +52,7 @@
             </div>   
 
             <div class="text-center">
-                <a class="btn btn-lg btn-primary" style="margin-top:10px;">Toutes nos réalisations</a>
+                <a href="<?= $baseUrl ?><?php echo $_GET['lang']; ?>/portfolio" class="btn btn-lg btn-primary" style="margin-top:10px;"><?php echo L::toustravaux; ?></a>
             </div>
             
             

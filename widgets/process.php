@@ -11,32 +11,32 @@
             <ul class="hidden-xs">
                 <li>
                     <div class="img-responsive" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="center-block bs-process-img" style=""><span><i class="fa fa-user bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalMeeting" style=""><?php echo L::methode_entrevue; ?></a>
+                        <div class="center-block bs-process-img"><span><i class="fa fa-user bs-process-icon"></i></span></div>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalMeeting"><?php echo L::methode_entrevue; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                        <div class="center-block bs-process-img" style=""><span><i class="fa fa-calendar bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPlanning" style=""><?php echo L::methode_planning; ?></a>
+                        <div class="center-block bs-process-img"><span><i class="fa fa-calendar bs-process-icon"></i></span></div>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPlanning"><?php echo L::methode_planning; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive" data-wow-duration="1000ms" data-wow-delay="1700ms">
-                        <div class="center-block bs-process-img" style=""><span><i class="fa fa-picture-o bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPrototyping" style=""><?php echo L::methode_prototypage; ?></a>
+                        <div class="center-block bs-process-img"><span><i class="far fa-image bs-process-icon"></i></span></div>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalPrototyping"><?php echo L::methode_prototypage; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive" data-wow-duration="1000ms" data-wow-delay="2400ms">
-                        <div class="center-block bs-process-img" style=""><span><i class="fa fa-cogs bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalRealization" style=""><?php echo L::methode_realisation; ?></a>
+                        <div class="center-block bs-process-img"><span><i class="fa fa-cogs bs-process-icon"></i></span></div>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalRealization"><?php echo L::methode_realisation; ?></a>
                     </div>
                 </li>
                 <li>
                     <div class="img-responsive" data-wow-duration="1000ms" data-wow-delay="3100ms">
-                        <div class="center-block bs-process-img" style=""><span><i class="fa fa-thumbs-up bs-process-icon" style=""></i></span></div>
-                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalDeployment" style=""><?php echo L::methode_deploiement; ?></a>
+                        <div class="center-block bs-process-img"><span><i class="fa fa-thumbs-up bs-process-icon"></i></span></div>
+                        <a href="#" class="bs-process" data-toggle="modal" data-target="#modalDeployment"><?php echo L::methode_deploiement; ?></a>
                     </div>
                 </li>
             </ul>

@@ -8,12 +8,12 @@ const galerie = 'Portfolio';
 const realisations = 'Projects';
 const tarifs = 'Pricing';
 const langue = 'Language';
-const mboageekrole = 'Software engineering service provider';
+const mboageekrole = 'Web development agency';
 const droits = 'All rights reserved';
 const lireplus = 'Read more';
 const apercu = 'Show';
 const lien = 'Link';
-const blog = 'The Geek-Blog';
+const blog = 'Blog';
 const contact = 'Contact';
 const par = 'by';
 const envoyer = 'Send';
@@ -40,6 +40,7 @@ const sujet = 'Subject';
 const message = 'Message';
 const envoyermsg = 'Submit the message';
 const toustravaux = 'See more works';
+const contacteznous = 'Contact-us';
 const servicestitle = 'Our multiple services';
 const servicesintro = 'Discover our range of services in the field of IT that go further than those of <br> a simple web development agency';
 const fonctionstitle = 'Tailor-made websites';
@@ -162,6 +163,7 @@ const title_services = 'Services - MboaGeek Web Agency - Creation of websites, w
 const title_galerie = 'Portfolio - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
 const title_tarifs = 'Pricing - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
 const title_contactus = 'Contact us - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
+const title_legals = 'Legal notice - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
 const error_msg = '404, Page not found';
 const error_texte = 'The Page you are looking for doesn\'t exist or an other error occurred.';
 const error_btntext = 'GO BACK TO THE HOMEPAGE';
@@ -178,7 +180,7 @@ const prix_an = 'year';
 const prix_mois = 'month';
 const prix_devisprojet = 'Quote of your project';
 const prix_conseils = 'Technical advice';
-const prix_proposition = 'Click the button below to tell us about your budget and your concerns.';
+const prix_proposition = 'Suggestion of ideas';
 const prix_carnet = 'Address book';
 const prix_recherche = 'Search of partners';
 const prix_details = 'Details';
@@ -193,6 +195,7 @@ const prix_ajout = 'Adding features';
 const prix_hebergement = 'Website hosting';
 const prix_formation = 'UI using training';
 const prix_question = 'Cannot find a formula that suits you ?';
+const prix_proposition2 = 'Click the button below to tell us about your budget and your concerns.';
 const pack_title = 'Multiple pricings';
 const pack_intro = 'We offer multiple packages for our web development services <br> that adapt to the size of your budget.';
 const pack_basique = 'Basic';
@@ -228,6 +231,49 @@ const tech_aspcore = 'Used for several decades, it is the most suitable for ente
 const slider_besoin = 'I NEED A WEBSITE';
 const slider_puv = 'Create your own website with just <strong>70.000 Fcfa</strong> !';
 const slider_accroche = 'And join thousands of entrepreneurs who choose to enter in the digital era...';
+const mention_title = 'Legal notice';
+const mention_intro = 'Check out all the information regarding the status of Mboageek and its policy <br> about personal data management.';
+const mention_presentation = 'Introduction';
+const mention_partie1 = 'Under Article 6 of Law No. 2004-575 of 21 June 2004 on confidence in the digital economy, it is clear to users of the site www.mboageek.com the identity of the various stakeholders in the context of its realization and follow-up: <br>
+This site is published by: Penaye Lando Cyrille Bertrand, Auto-entrepreneur with the number SIRET NDH098980 and who is domiciled in Douala, Cameroon <br>
+<u> Publication Manager </u>: Penaye Lando Cyrille Bertrand, reachable by phone at (+237) 653747134 and by email penayecyrille@gmail.com <br>
+<u> Webmaster of the site </u>: Mboageek, reachable by phone at (+237) 655669952 <br>
+<u> Host of the website </u>: Mboahost, who is domiciled in Yaoundé, Cameroon and can be reached by phone at (+237) 695 15 25 68
+<br>';
+const mention_propriete = 'Intellectual property and counterfeits';
+const mention_partie2 = 'The company Mboageek owns the intellectual property rights or holds the rights to use all the items available on the site, including: text, images, graphics, logo, icons, ... <br>
+Any reproduction, representation, modification, publication, adaptation of all or part of the elements of the site, whatever the means or process used, is prohibited without the prior written authorization of the Mboageek company. <br>
+Any unauthorized use of the site or any element it contains will be considered as constituting an infringement and prosecuted in accordance with the provisions of Articles L.335-2 and following of the Code of Intellectual Property.<br>';
+const mention_cookie = 'Cookies and tracers';
+const mention_partie3 = 'The website www.mboageek.com has an audience measurement system and a sharing function on social networks. <br>
+In application of the European directive called telecom package, Internet users must be informed and give their consent prior to the insertion of tracers (more commonly called cookies). People must have the option to choose not to be traced when they visit a site or use an app. Website publishers are therefore obliged to request the consent of users beforehand. <br>
+The refusal to install a cookie may make it impossible to access certain services. The user can however configure his internet browser to refuse the installation of cookies.<br>';
+const mention_audience = 'Audience measurement';
+const mention_partie31 = 'Audience measurement cookies are small files that make it possible to know and analyze the traffic statistics on the website: the pages visited, the number of visits, the bounce rate, the origin of visits, etc. Cookies audience measurement are totally anonymous. <br>
+On this site, the Google Analytics solution is used to measure the audience.';
+const mention_reseaux = 'Social networks';
+const mention_partie32 = 'Cookies related to social networks are associated with buttons that facilitate the sharing of pages and articles on social networks.<br>';
+const mention_formulaire = 'Contact form and comments';
+const mention_partie4 = 'You may be required to provide us with your e-mail address when you fill out our contact form or submit a comment on one of the articles on the site www.mboageek.com. <br>
+In no case will your e-mail address be transferred to third parties.<br>';
+const mention_moderation = 'Moderation of comments';
+const mention_partie5 = 'The choice of validation of a comment on the site www.mboageek.com is left to the complete discretion of the publication manager. Comments can be deleted, modified and corrected for a better understanding of visitors (especially for spelling). <br>
+The user can sign his comment of his name or nickname or name of his company. He can also enter a URL in the website field. This link may not appear if it was judged that the comment did not really add value to the article. This, even if the comment is published. <br>
+Here are some examples of cases where a comment may be moderated or deleted:
+<ul>
+<li> It has been removed by anti-spam </li>
+<li> It does not really add value and is not useful for users </li>
+<li> It is riddled with spelling errors or incomprehensible </li>
+<li> It seems to be self-promotional only </li>
+<li> The email shown is obviously wrong </li>
+<li> It is considered defamatory for a third party </li>
+</ul><br>';
+const mention_newsletter = 'Newsletter';
+const mention_partie6 = 'You can subscribe to the newsletter of the site. You will receive automatically and free newsletter dealing with the topics of the site www.mboageek.com. <br>
+You can unsubscribe at any time from the newsletter by clicking on the unsubscribe link at the bottom of each newsletter. <br>
+In no case will your e-mail address be transferred to third parties.<br>';
+const mention_liens = 'Hypertext links';
+const mention_partie7 = 'This website contains a number of hypertext links to other sites. However, www.mboageek.com does not have the ability to track and verify the content of these sites, and therefore will not assume any liability as a result.';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }
