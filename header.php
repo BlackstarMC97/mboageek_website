@@ -42,9 +42,9 @@
                 <div class="col-sm-4 col-xs-12">
                    <div class="social">
                         <ul class="social-share">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li> 
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
                         </ul>
                    </div>
                 </div>

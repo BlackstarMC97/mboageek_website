@@ -28,7 +28,7 @@ if (post_password_required()) {
         <h2 class="comments-title">
             <?php
             printf( // WPCS: XSS OK.
-                esc_html(_nx('One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', '_s')),
+                esc_html(_nx('Une pensée sur &ldquo;%2$s&rdquo;', '%1$s Pensées sur &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', '_s')),
                 number_format_i18n(get_comments_number()),
                 '<span>' . get_the_title() . '</span>'
             );
@@ -37,11 +37,11 @@ if (post_password_required()) {
 
         <?php if (get_comment_pages_count() > 1 && get_option('page_comments')) : // Are there comments to navigate through? ?>
             <nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
-                <h2 class="screen-reader-text"><?php esc_html_e('Comment navigation', '_s'); ?></h2>
+                <h2 class="screen-reader-text"><?php esc_html_e('Commentaires', '_s'); ?></h2>
                 <div class="nav-links">
 
-                    <div class="nav-previous"><?php previous_comments_link(esc_html__('Older Comments', '_s')); ?></div>
-                    <div class="nav-next"><?php next_comments_link(esc_html__('Newer Comments', '_s')); ?></div>
+                    <div class="nav-previous"><?php previous_comments_link(esc_html__('Anciens commentaires', '_s')); ?></div>
+                    <div class="nav-next"><?php next_comments_link(esc_html__('Anciens commentaires', '_s')); ?></div>
 
                 </div><!-- .nav-links -->
             </nav><!-- #comment-nav-above -->
@@ -56,7 +56,7 @@ if (post_password_required()) {
         ?>
 		</ol><!-- .comment-list -->
 
-        <h1 id="comments_title"><?php echo get_comments_number() ?> Comments</h1>
+        <h1 id="comments_title"><?php echo get_comments_number() ?> Commentaires</h1>
         <?php
         $comments = get_comments(array(
             // 'number'    => 5,
@@ -83,11 +83,11 @@ if (post_password_required()) {
 
         <?php if (get_comment_pages_count() > 1 && get_option('page_comments')) : // Are there comments to navigate through? ?>
             <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
-                <h2 class="screen-reader-text"><?php esc_html_e('Comment navigation', '_s'); ?></h2>
+                <h2 class="screen-reader-text"><?php esc_html_e('Commentaires', '_s'); ?></h2>
                 <div class="nav-links">
 
-                    <div class="nav-previous"><?php previous_comments_link(esc_html__('Older Comments', '_s')); ?></div>
-                    <div class="nav-next"><?php next_comments_link(esc_html__('Newer Comments', '_s')); ?></div>
+                    <div class="nav-previous"><?php previous_comments_link(esc_html__('Anciens commentaires', '_s')); ?></div>
+                    <div class="nav-next"><?php next_comments_link(esc_html__('Nouveaux commentaires', '_s')); ?></div>
 
                 </div><!-- .nav-links -->
             </nav><!-- #comment-nav-below -->
@@ -99,7 +99,7 @@ if (post_password_required()) {
     // If comments are closed and there are comments, let's leave a little note, shall we?
     if (!comments_open() && get_comments_number() && post_type_supports(get_post_type(), 'comments')) :
         ?>
-        <p class="no-comments"><?php esc_html_e('Comments are closed.', '_s'); ?></p>
+        <p class="no-comments"><?php esc_html_e('Il n\'y a pas encore de commentaires pour cette page.', '_s'); ?></p>
     <?php endif; ?>
 
 </div><!-- #comments -->
@@ -107,8 +107,8 @@ if (post_password_required()) {
 <div id="contact-page clearfix">
     <div class="status alert alert-success" style="display: none"></div>
     <div class="message_heading">
-        <h4>Leave a Replay</h4>
-        <p>Make sure you enter the(*)required information where indicate.HTML code is not allowed</p>
+        <h4>Laisser un commentaire</h4>
+        <p>Assurez vous d'entrer les informations requises(*) aux endroits indiques. Les codes HTML sont interdits.</p>
         <p class="comment-notes"></p>
     </div>
 
@@ -117,15 +117,15 @@ if (post_password_required()) {
         <div class="row">
             <div class="col-sm-5">
                 <div class="form-group">
-                    <label><?php echo __('Your Name') ?> *</label>
+                    <label><?php echo __('Nom') ?> *</label>
                     <input type="text" id="author" name="author" class="form-control" required="required">
                 </div>
                 <div class="form-group">
-                    <label><?php echo __('Your Email') ?> *</label>
+                    <label><?php echo __('Email') ?> *</label>
                     <input type="email" id="email" name="email" class="form-control" required="required">
                 </div>
                 <div class="form-group">
-                    <label><?php echo __('Your Website') ?></label>
+                    <label><?php echo __('Site web') ?></label>
                     <input type="url" id="url" name="url" class="form-control">
                 </div>
 
@@ -155,12 +155,12 @@ if (post_password_required()) {
             </div>
             <div class="col-sm-7">
                 <div class="form-group">
-                    <label><?php echo __('Your Comments') ?> *</label>
+                    <label><?php echo __('Commentaires') ?> *</label>
                     <textarea name="comment" id="comment" required="required" class="form-control" rows="8"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" id="submit" name="submmit" class="btn btn-primary btn-lg" required="required">
-                        Post Comment
+                        Commenter
                     </button>
                     <input type="hidden" id="comment_post_ID" name="comment_post_ID" value="<?php the_ID() ?>">
                     <input type="hidden" id="comment_parent" name="comment_parent" value="0">

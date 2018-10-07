@@ -15,7 +15,7 @@
             <div class="entry-meta">
                 <span id="publish_date"><?php _s_posted_on(); ?></span>
                 <span><i class="fa fa-user"></i> <a href="#"><?php echo get_the_author() ?></a></span>
-                <span><i class="fa fa-comment"></i> <a href="#comments"><?php echo get_comments_number() ?> Comments</a></span>
+                <span><i class="fa fa-comment"></i> <a href="#comments"><?php echo get_comments_number() ?> Commentaires</a></span>
             </div>
         </div>
 

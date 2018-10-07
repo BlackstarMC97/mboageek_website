@@ -164,6 +164,7 @@ const title_galerie = 'Galerie - Agence web MboaGeek - Création de sites intern
 const title_tarifs = 'Tarifs - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const title_contactus = 'Contactez nous - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const title_legals = 'Mentions légales - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
+const title_recruitment = 'Recrutement - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const error_msg = '404, Page non trouvée';
 const error_texte = 'La page que vous recherchez n\'existe pas ou une erreur s\'est produite.';
 const error_btntext = 'RETOURNER A L\'ACCUEIL';
@@ -274,6 +275,17 @@ const mention_partie6 = 'Vous pouvez vous abonner à la newsletter du site. Vous
 				En aucun cas, votre adresse e-mail ne sera cédée à des tiers. <br>';
 const mention_liens = 'Liens hypertextes';
 const mention_partie7 = 'Ce site internet contient un certain nombre de liens hypertextes vers d’autres sites. Cependant, www.mboageek.com n’a pas la possibilité de suivre et vérifier le contenu de ces sites, et n’assumera en conséquence aucune responsabilité de ce fait.';
+const story_title1 = 'De l\'idée à l\'aventure';
+const story_texte1 = 'Cyrille et Blondeau, deux étudiants de l\'IUT de Ngaoundéré se réunissent pour créer un concept : <strong>MboaGeek</strong>. 
+Le but est de monter une équipe de jeunes techniciens de l\'informatique compétente, dynamique et à moindre coût pour aider les porteurs de projets IT.';
+const story_title2 = 'Des débuts difficiles';
+const story_texte2 = 'Suite à l\'obtention de leurs diplômes, l\'équipe MboaGeek se réduit énormément mais est toujours active au sein de la communauté informatique de Ngaoundéré et gagne 
+également plusieurs projets mais peine à se développer dû à son faible rayon d\'action.';
+const story_title3 = 'Un nouveau départ';
+const story_texte3 = 'MboaGeek déménage à Douala, dans le but d\'agrandir son rayon d\'action, de développer son réseau et d\'accroître son activité. Un nouveau recrutement 
+est également opéré et l\'équipe réunie est désormais 100% opérationnelle.';
+const join_title = 'Nous rejoindre';
+const join_intro = 'Rejoignez une équipe de développeurs freelance basée au Cameroun afin de gagner de l\'argent <br> et de participer à des projets innovants.';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }

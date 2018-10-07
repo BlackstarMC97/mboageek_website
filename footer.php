@@ -13,9 +13,9 @@
                         <li><i class="fa fa-phone-square"></i> (+237) 655 669 952</li>
                         <li><i class="fa fa-envelope"></i> contact@mboageek.com</li>
                         <li>
-                            <a class="bs-social" href="#"><i class="fab fa-facebook"></i></a>
+                            <a class="bs-social" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="bs-social" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="bs-social" href="#"><i class="fab fa-linkedin"></i></a>
+                            <a class="bs-social" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </li>
                         <li></li>
                     </ul>
@@ -28,14 +28,14 @@
                 <div class="widget">
                     <h3><?php echo L::navigation; ?></h3>
                     <ul>
-                        <li><a href="<?= $baseUrl; ?>about"><?php echo L::nousconnaitre; ?></a></li>
-                        <li><a href="<?= $baseUrl; ?>pricing"><?php echo L::nosservices; ?></a></li>
-                        <li><a href="<?= $baseUrl; ?>portfolio"><?php echo L::galerieprojets; ?></a></li>
+                        <li><a href="<?= $baseUrl; ?>about?lang=<?= $_GET['lang']; ?>"><?php echo L::nousconnaitre; ?></a></li>
+                        <li><a href="<?= $baseUrl; ?>pricing?lang=<?= $_GET['lang']; ?>"><?php echo L::nosservices; ?></a></li>
+                        <li><a href="<?= $baseUrl; ?>portfolio?lang=<?= $_GET['lang']; ?>"><?php echo L::galerieprojets; ?></a></li>
                         <li><a href="<?= $baseUrl; ?>blog"><?php echo L::blogdesgeeks; ?></a></li>
                         <li><a href="#">Pourquoi créer un site web en 2018 ?</a></li>
                         <li><a href="#">Les 10 qualités d'un site web</a></li>
                         <li><a href="#">Comment choisir son agence web ?</a></li>
-                        <li><a href="#">Geek news : Heu.. Bloque chaine ?</a></li>
+                        <li><a href="#">Sujet focus N° 3 : Heu.. Bloque chaine ?</a></li>
                         <li></li>
                     </ul>
                 </div>    
@@ -67,9 +67,9 @@
             <div class="col-sm-8">
                 <ul class="pull-right">
                     <li><a href="#"><?php echo L::sommet; ?></a></li>
-                    <li><a href="#"><?php echo L::mentionslegales; ?></a></li>
-                    <li><a href="#"><?php echo L::nousrejoindre; ?></a></li>
-                    <li><a href="#"><?php echo L::plandusite; ?></a></li>
+                    <li><a href="<?= $baseUrl; ?>legals?lang=<?= $_GET['lang']; ?>"><?php echo L::mentionslegales; ?></a></li>
+                    <li><a href="<?= $baseUrl; ?>recruitment?lang=<?= $_GET['lang']; ?>"><?php echo L::nousrejoindre; ?></a></li>
+                    <li><a href="<?= $baseUrl; ?>sitemap?lang=<?= $_GET['lang']; ?>"><?php echo L::plandusite; ?></a></li>
                     <li><img src="<?= $baseUrl ?>images/MboaGeek_Google_Partner.png" style="height:50px;"> </li>
                 </ul>
             </div>

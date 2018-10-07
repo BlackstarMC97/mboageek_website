@@ -274,6 +274,15 @@ You can unsubscribe at any time from the newsletter by clicking on the unsubscri
 In no case will your e-mail address be transferred to third parties.<br>';
 const mention_liens = 'Hypertext links';
 const mention_partie7 = 'This website contains a number of hypertext links to other sites. However, www.mboageek.com does not have the ability to track and verify the content of these sites, and therefore will not assume any liability as a result.';
+const story_title1 = 'From idea to adventure';
+const story_texte1 = 'Cyrille and Blondeau, two students from the IUT of Ngaoundéré get together to create a concept : <strong>MboaGeek</strong>.
+The goal is to build a team of young, competent, dynamic and cost-effective IT technicians to help IT project leaders.';
+const story_title2 = 'Difficult beginnings';
+const story_texte2 = 'After obtaining their diplomas, the MboaGeek team shrinks a lot but is still active in the Ngaoundéré IT community and wins
+also several projects but struggling to develop due to its small radius of action.';
+const story_title3 = 'A new start to the team';
+const story_texte3 = 'MboaGeek moves to Douala, with the aim of expanding its reach, developing its network and increasing its activity. A new recruitment
+is also operated and the assembled team is now 100% operational.';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }

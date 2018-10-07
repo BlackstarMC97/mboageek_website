@@ -165,7 +165,7 @@
                     <h1><?php echo L::prix_question; ?></h1>
                     <span style="color:white;"><?php echo L::prix_proposition2; ?></span>
                     <div class="text-center">
-                        <a href="#" class="btn btn-lg btn-primary" style="background-color:red;font-size:1.5em;margin-bottom:40px;"><?php echo L::contacteznous; ?></a>
+                        <a href="<?= $baseUrl; ?>contact?lang=<?= $_GET['lang']; ?>#contact-page" class="btn btn-lg btn-primary" style="background-color:red;font-size:1.5em;margin-bottom:40px;"><?php echo L::contacteznous; ?></a>
                     </div>
                 </div>
             </div>

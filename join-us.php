@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>La team MboaGeek recrute! Venez prendre part à cette expérience!! </title>
+<title><?php echo L::title_recruitment; ?></title>
 <?php include("librairies.php"); ?>
 
 <body>
@@ -12,8 +12,8 @@
 
     <section id="contact-info">
         <div class="center">                
-            <h2>Nous rejoindre</h2>
-            <p class="lead">Rejoignez une équipe de développeurs freelance basée au Cameroun afin d'accroître vos revenus <br> et de participer à des projets innovants</p>
+            <h2><?php echo L::join_title; ?></h2>
+            <p class="lead"><?php echo L::join_intro; ?></p>
         </div>
     </section>  <!--/gmap_area -->
 

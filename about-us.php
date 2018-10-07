@@ -5,6 +5,7 @@
 
 <title><?php echo L::title_apropos; ?> </title>
 <?php include("librairies.php"); ?>
+<link rel="stylesheet" type="text/css" href="css/timeline.css">
 
 <body>
 
@@ -51,7 +52,7 @@
 					<p class="lead"><?php echo L::agence_intro; ?></p>
 				</div>
 				
-				<?php include('widgets/tab-wrap.php'); ?>
+				<?php include('widgets/timeline.php'); ?>
 			</div>
 			
 
@@ -67,20 +68,20 @@
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/tof_naye.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/avatar/icone-cyrille.png" alt="avatar-cyrille"></a>
 								</div>
 								<div class="media-body">
 									<h4>Cyrille PENAYE</h4>
 									<h5>Fondateur et CEO</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Dotnet</a></li>
+										<li class="btn"><a href="#">Logiciel</a></li>
 										<li class="btn"><a href="#">Consulting</a></li>
 									</ul>
 									
 									<ul class="social_icons">
 										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 									</ul>
 								</div>
 							</div><!--/.media -->
@@ -93,14 +94,14 @@
 						<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/tof_jo.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/avatar/icone-jorel.png" alt="avatar-jorel"></a>
 								</div>
 								<div class="media-body">
 									<h4>Jorel KUETE</h4>
 									<h5>Responsable commercial</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Marketing</a></li>
-										<li class="btn"><a href="#">Graphisme</a></li>
+										<li class="btn"><a href="#">Business</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -135,16 +136,16 @@
 						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/tof_bogoss.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/avatar/icone-frank.png" alt="avatar-frank"></a>
 								</div>
 
 								<div class="media-body">
-									<h4>Boris NDOUMA</h4>
-									<h5>Infotronicien</h5>
+									<h4>Frank MOUNYEBE</h4>
+									<h5>Développeur</h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Sécurité</a></li>
-										<li class="btn"><a href="#">Consulting</a></li>
+										<li class="btn"><a href="#">Graphisme</a></li>
+										<li class="btn"><a href="#">Logiciel</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -159,15 +160,14 @@
 						<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
 							<div class="media">
 								<div class="pull-left">
-									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/tof_so.jpg" alt=""></a>
+									<a href="#"><img class="media-object img-thumbnail img-circle" src="<?= $baseUrl ?>images/avatar/icone-sorel.png" alt="avatar-sorel"></a>
 								</div>
 								<div class="media-body">
 									<h4>Sorel MAFOSSO</h4>
 									<h5>Community manager</h5>
 									<ul class="tag clearfix">
-										<li class="btn"><a href="#">Web</a></li>
 										<li class="btn"><a href="#">Marketing</a></li>
-										<li class="btn"><a href="#">SEO</a></li>
+										<li class="btn"><a href="#">Reférencement</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fab fa-facebook"></i></a></li>

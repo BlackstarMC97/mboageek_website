@@ -13,7 +13,7 @@ if ($is_portfolio)
 get_search_form() ?>
 
     <div class="widget categories">
-        <h3>Recent Comments</h3>
+        <h3>Commentaires récents</h3>
         <div class="row">
             <div class="col-sm-12">
                 <?php
@@ -39,7 +39,7 @@ get_search_form() ?>
 
 
     <div class="widget categories">
-        <h3>Categories</h3>
+        <h3>Catégories</h3>
         <div class="row">
             <div class="col-sm-6">
                 <ul class="blog_category">
@@ -61,7 +61,7 @@ get_search_form() ?>
     </div><!--/.categories-->
 
     <div class="widget archieve">
-        <h3>Archieve</h3>
+        <h3>Archives</h3>
         <div class="row">
             <div class="col-sm-12">
                 <ul class="blog_archieve">
@@ -78,7 +78,7 @@ get_search_form() ?>
     </div><!--/.archieve-->
 
     <div class="widget tags">
-        <h3>Tag Cloud</h3>
+        <h3>Etiquettes</h3>
         <ul class="tag-cloud">
             <?php
             $posttags = get_the_tags();

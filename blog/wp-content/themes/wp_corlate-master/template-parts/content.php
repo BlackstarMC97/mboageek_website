@@ -52,7 +52,7 @@
                     }
                 ?>
             </h3>
-            <a class="btn btn-primary readmore" href="<?php echo esc_url( get_permalink() ) ?>">Read More <i class="fa fa-angle-right"></i></a>
+            <a class="btn btn-primary readmore" href="<?php echo esc_url( get_permalink() ) ?>" style="margin-top:10px;">Lire plus... <i class="fa fa-angle-right"></i></a>
         </div>
     </div>
 </article><!--/.blog-item-->
