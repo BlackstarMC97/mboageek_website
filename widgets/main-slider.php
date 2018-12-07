@@ -7,7 +7,7 @@
         </ol>
         <div class="carousel-inner" style="height:600px;">
 
-            <div class="item active" style="background-image: url(<?= $baseUrl ?>images/slider/bg-keys.jpg)">
+            <div class="item active" style="background-image: url(<?= $baseUrl ?>images/slider/bg-simple.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="" style="margin:0 10px;">
@@ -17,9 +17,8 @@
                             
                             <div class="carousel-content">
                                 <h1 style="background-color:#0b497a;padding:15px;display:inline-block;text-align:center;"><?php echo L::slider_puv; ?></h1>
-                                <p style="color:white;font-size:1.3em;"><?php echo L::slider_accroche; ?></p>
                                 <div class="text-center" style="margin-top:10%;">
-                                    <a href="#" class="btn" style="background-color:red;color:white;font-size:1.5em;border-radius:0;"><?php echo L::slider_besoin; ?></a>
+                                    <a href="#" class="btn" style="background-color:orange;color:white;font-size:1.5em;border-radius:0;"><?php echo L::slider_besoin; ?></a>
                                     
                                 </div>
                             </div>

@@ -72,10 +72,10 @@
 								</div>
 								<div class="media-body">
 									<h4>Cyrille PENAYE</h4>
-									<h5>Fondateur et CEO</h5>
+									<h5><?php echo L::equipe_poste1; ?></h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
-										<li class="btn"><a href="#">Logiciel</a></li>
+										<li class="btn"><a href="#">Software</a></li>
 										<li class="btn"><a href="#">Consulting</a></li>
 									</ul>
 									
@@ -98,7 +98,7 @@
 								</div>
 								<div class="media-body">
 									<h4>Jorel KUETE</h4>
-									<h5>Responsable commercial</h5>
+									<h5><?php echo L::equipe_poste2; ?></h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Marketing</a></li>
 										<li class="btn"><a href="#">Business</a></li>
@@ -141,11 +141,11 @@
 
 								<div class="media-body">
 									<h4>Frank MOUNYEBE</h4>
-									<h5>Développeur</h5>
+									<h5><?php echo L::equipe_poste3; ?></h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Web</a></li>
 										<li class="btn"><a href="#">Graphisme</a></li>
-										<li class="btn"><a href="#">Logiciel</a></li>
+										<li class="btn"><a href="#">Software</a></li>
 									</ul>
 									<ul class="social_icons">
 										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -164,7 +164,7 @@
 								</div>
 								<div class="media-body">
 									<h4>Sorel MAFOSSO</h4>
-									<h5>Community manager</h5>
+									<h5><?php echo L::equipe_poste4; ?></h5>
 									<ul class="tag clearfix">
 										<li class="btn"><a href="#">Marketing</a></li>
 										<li class="btn"><a href="#">Reférencement</a></li>

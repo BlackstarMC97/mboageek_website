@@ -80,7 +80,7 @@
                 <form role="search" method="get" id="searchform" class="searchform"
                       action="<?php echo esc_url(home_url('/')); ?>">
                     <input type="text" name="s" id="s" class="search-form" autocomplete="off"
-                           placeholder="Search">
+                           placeholder="Rechercher">
                     <i class="fa fa-search"></i>
                 </form>
             </div>

@@ -148,6 +148,10 @@ const presentation_marketing = 'Digital marketing to boost your sales';
 const presentation_conseils = 'Technical advices to make your IT project a success';
 const equipe_title = 'A wonderful team';
 const equipe_intro = 'MboaGeek is first and foremost talented and complementary people sharing the same <br> aspirations and working together as a family.';
+const equipe_poste1 = 'CEO and founder';
+const equipe_poste2 = 'Sales manager';
+const equipe_poste3 = 'Developer';
+const equipe_poste4 = 'Community manager';
 const competence_title = 'Our skills';
 const competence_intro = 'We offer you a multitude of services in order to help you improve your digital <br> communication as well as your efficiency.';
 const portfolio_title = 'Awesome projects';
@@ -164,6 +168,8 @@ const title_galerie = 'Portfolio - MboaGeek Web Agency - Creation of websites, w
 const title_tarifs = 'Pricing - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
 const title_contactus = 'Contact us - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
 const title_legals = 'Legal notice - MboaGeek Web Agency - Creation of websites, web applications in Douala and throughout Cameroon';
+const title_recruitment = 'Recruitment - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
+const title_sitemap = 'Sitemap - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const error_msg = '404, Page not found';
 const error_texte = 'The Page you are looking for doesn\'t exist or an other error occurred.';
 const error_btntext = 'GO BACK TO THE HOMEPAGE';
@@ -283,6 +289,11 @@ also several projects but struggling to develop due to its small radius of actio
 const story_title3 = 'A new start to the team';
 const story_texte3 = 'MboaGeek moves to Douala, with the aim of expanding its reach, developing its network and increasing its activity. A new recruitment
 is also operated and the assembled team is now 100% operational.';
+const join_title = 'Join us';
+const join_intro = 'Join a team of freelance developers based in Cameroon to earn money <br> and participate in innovative projects.';
+const join_nothing = 'We have no current vacancies, leave us a message in case it changes ...';
+const sitemap_title = 'Site map';
+const sitemap_intro = '';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }

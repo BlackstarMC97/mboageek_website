@@ -77,8 +77,7 @@
     else {
         echo json_encode(array('message' => 'Une erreur s\'est produite, veuillez vérifier les champs que vous avez entrés !');
     }
-    */
-    
+    */   
 
     /*
     if(mail($to, $subject, $message, $headers)) {
@@ -101,4 +100,3 @@
     //echo json_encode(array('message' => $_POST["subject"]));
     echo json_encode(array('message' => 'Nothing worked !'));
 ?>
-

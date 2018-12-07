@@ -148,6 +148,10 @@ const presentation_marketing = 'Du marketing digital pour booster vos ventes';
 const presentation_conseils = 'Des conseils techniques pour réussir votre projet IT';
 const equipe_title = 'Une équipe formidable';
 const equipe_intro = 'MboaGeek c\'est tout d\'abord des personnes talentueuses et complémentaires partageant les mêmes <br> aspirations et travaillant ensemble comme une famille.';
+const equipe_poste1 = 'Fondateur et CEO';
+const equipe_poste2 = 'Responsable commercial';
+const equipe_poste3 = 'Développeur';
+const equipe_poste4 = 'Community manager';
 const competence_title = 'Nos compétences';
 const competence_intro = 'Nous vous offrons une multitude de services dans le but de vous aider à améliorer <br>votre communication digitale ainsi que votre efficacité.';
 const portfolio_title = 'Projets réalisés';
@@ -165,6 +169,7 @@ const title_tarifs = 'Tarifs - Agence web MboaGeek - Création de sites internet
 const title_contactus = 'Contactez nous - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const title_legals = 'Mentions légales - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const title_recruitment = 'Recrutement - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
+const title_sitemap = 'Plan du site - Agence web MboaGeek - Création de sites internet, applications web à Douala et dans tout le Cameroun';
 const error_msg = '404, Page non trouvée';
 const error_texte = 'La page que vous recherchez n\'existe pas ou une erreur s\'est produite.';
 const error_btntext = 'RETOURNER A L\'ACCUEIL';
@@ -230,7 +235,7 @@ const tech_yii = 'Il nous sert à développer des applications web rapides, prof
 const tech_mern = 'MERN Stack est l\'outil idéal pour vos solutions nécessitant des interfaces complexes, performantes ainsi qu\'une maintenabilité permanente.';
 const tech_aspcore = 'Utilisé depuis plusieurs décennies, il est le plus approprié pour les logiciels d\'entreprise nécessitant un haut niveau de sécurité et de stabilité.';
 const slider_besoin = 'J\'AI BESOIN D\'UN SITE WEB';
-const slider_puv = 'Créez votre site internet à partir de <strong>70.000 Fcfa</strong> !';
+const slider_puv = 'Améliorez votre stratégie de communication avec un site web !';
 const slider_accroche = 'Et rejoignez des milliers d\'entrepreneurs qui ont choisi d\'entrer dans l\'ère du numérique...';
 const mention_title = 'Mentions légales';
 const mention_intro = 'Consultez toutes les informations concernant le statut de Mboageek et sa politique de gestion <br> des données à caractère personnel.';
@@ -286,6 +291,9 @@ const story_texte3 = 'MboaGeek déménage à Douala, dans le but d\'agrandir son
 est également opéré et l\'équipe réunie est désormais 100% opérationnelle.';
 const join_title = 'Nous rejoindre';
 const join_intro = 'Rejoignez une équipe de développeurs freelance basée au Cameroun afin de gagner de l\'argent <br> et de participer à des projets innovants.';
+const join_nothing = 'Nous n\'avons pas de postes à pourvoir actuellement, laissez nous un message au cas où ça change...';
+const sitemap_title = 'Plan du site';
+const sitemap_intro = '';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }
