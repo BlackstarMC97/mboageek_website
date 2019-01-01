@@ -29,9 +29,9 @@ $footer_links = get_option( 'wp_corlate_footer_links' );
                     <li><i class="fa fa-phone-square"></i> (+237) 655 669 952</li>
                     <li><i class="fa fa-envelope-o"></i> contact@mboageek.com</li>
                     <li>
-                        <a class="bs-social" href="#"><i class="fa fa-facebook"></i></a>
-                        <a class="bs-social" href="#"><i class="fa fa-twitter"></i></a>
-                        <a class="bs-social" href="#"><i class="fa fa-linkedin"></i></a>
+                        <a class="bs-social" href="https://facebook.com/ushideshi"><i class="fa fa-facebook"></i></a>
+                        <a class="bs-social" href="https://twitter.com/GeekMboa"><i class="fa fa-twitter"></i></a>
+                        <a class="bs-social" href="https://github.com/BlackstarMC97"><i class="fa fa-github"></i></a>
                     </li>
                     <li></li>
                 </ul>
@@ -44,16 +44,13 @@ $footer_links = get_option( 'wp_corlate_footer_links' );
             <div class="widget">
                 <h3><?php echo "Navigation"; ?></h3>
                 <ul>
-                    <li><a href="#"><?php echo "Nous connaître"; ?></a></li>
-                    <li><a href="#"><?php echo "Découvrir nos services"; ?></a></li>
-                    <li><a href="#"><?php echo "Offres de développement web"; ?></a></li>
-                    <li><a href="#"><?php echo "Galerie des projets réalisés"; ?></a></li>
-                    <li><a href="#"><?php echo "Blog de la communauté"; ?></a></li>
-                    <li><a href="#">Pourquoi créer un site web en 2018 ?</a></li>
-                    <li><a href="#">Les 10 qualités d'un site web</a></li>
-                    <li><a href="#">Comment choisir son agence web ?</a></li>
-                    <li><a href="#">Geek news : Heu.. Bloque chaine ?</a></li>
-                    <li></li>
+                    <li><a href="http://mboageek.com/about"><?php echo "Nous connaître"; ?></a></li>
+                    <li><a href="http://mboageek.com/pricing"><?php echo "Découvrir nos services"; ?></a></li>
+                    <li><a href="http://mboageek.com/portfolio"><?php echo "Galerie des projets réalisés"; ?></a></li>
+                    <li><a href="http://mboageek.com/blog"><?php echo "Blog de la communauté"; ?></a></li>
+                    <li><a href="http://mboageek.com/blog/2018/10/07/les-10-qualites-dun-site-web/">Les 10 qualités d'un site web</a></li>
+					<li><a href="http://mboageek.com/blog/2018/10/07/comment-choisir-son-agence-web/">Comment choisir son agence web ?</a></li>
+					<li><a href="http://mboageek.com/blog/2018/10/07/pourquoi-creer-un-site-web-en-2018/">Pourquoi créer un site web en 2018 ?</a></li>
                 </ul>
             </div>    
         </div><!--/.col-md-3-->
@@ -61,7 +58,7 @@ $footer_links = get_option( 'wp_corlate_footer_links' );
         <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
             <div class="widget">
                 <h3><?php echo "Tweets recents"; ?></h3>
-                <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/PenayeCyrille?ref_src=twsrc%5Etfw">Tweets <?php echo "de"; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/GeekMboa?ref_src=twsrc%5Etfw">Tweets <?php echo "de"; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>    
         </div><!--/.col-md-3-->
 
@@ -85,9 +82,9 @@ $footer_links = get_option( 'wp_corlate_footer_links' );
             <div class="col-sm-8">
                 <ul class="pull-right">
                     <li><a href="#"><?php echo "Retour au sommet"; ?></a></li>
-                    <li><a href="#"><?php echo "Mentions légales"; ?></a></li>
-                    <li><a href="#"><?php echo "Nous rejoindre"; ?></a></li>
-                    <li><a href="#"><?php echo "Plan du site"; ?></a></li>
+                    <li><a href="http://mboageek.com/legals"><?php echo "Mentions légales"; ?></a></li>
+                    <li><a href="http://mboageek.com/recruitment"><?php echo "Nous rejoindre"; ?></a></li>
+                    <li><a href="http://mboageek.com/sitemap"><?php echo "Plan du site"; ?></a></li>
                     <li><a href="#"> <img src="http://localhost/Mboageek/images/MboaGeek_Google_Partner.png" style="height:50px;"> </a></li>
                 </ul>
             </div>

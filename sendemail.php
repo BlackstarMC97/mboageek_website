@@ -24,7 +24,7 @@
         $name = $_POST['name'];
         $email = $_POST['email'];
         $msg = $_POST['message'];
-        $subject = "Nouveau message du site web - FConsulting";
+        $subject = "Nouveau message du site web - Mboageek website";
 
         $to = 'penayecyrille@gmail.com';
         $headers = "De : ".$email;

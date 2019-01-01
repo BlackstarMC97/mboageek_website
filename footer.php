@@ -13,9 +13,9 @@
                         <li><i class="fa fa-phone-square"></i> (+237) 655 669 952</li>
                         <li><i class="fa fa-envelope"></i> contact@mboageek.com</li>
                         <li>
-                            <a class="bs-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="bs-social" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="bs-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="bs-social" href="https://facebook.com/ushideshi"><i class="fab fa-facebook-f"></i></a>
+                            <a class="bs-social" href="https://twitter.com/GeekMboa"><i class="fab fa-twitter"></i></a>
+                            <a class="bs-social" href="https://github.com/BlackstarMC97"><i class="fab fa-github"></i></a>
                         </li>
                         <li></li>
                     </ul>
@@ -32,10 +32,9 @@
                         <li><a href="<?= $baseUrl; ?>pricing?lang=<?= $_GET['lang']; ?>"><?php echo L::nosservices; ?></a></li>
                         <li><a href="<?= $baseUrl; ?>portfolio?lang=<?= $_GET['lang']; ?>"><?php echo L::galerieprojets; ?></a></li>
                         <li><a href="<?= $baseUrl; ?>blog"><?php echo L::blogdesgeeks; ?></a></li>
-                        <li><a href="#">Pourquoi créer un site web en 2018 ?</a></li>
-                        <li><a href="#">Les 10 qualités d'un site web</a></li>
-                        <li><a href="#">Comment choisir son agence web ?</a></li>
-                        <li><a href="#">Sujet focus N° 3 : Heu.. Bloque chaine ?</a></li>
+                        <li><a href="<?= $baseUrl; ?>blog/2018/10/07/les-10-qualites-dun-site-web/">Les 10 qualités d'un site web</a></li>
+                        <li><a href="<?= $baseUrl; ?>blog/2018/10/07/comment-choisir-son-agence-web/">Comment choisir son agence web ?</a></li>
+                        <li><a href="<?= $baseUrl; ?>blog/2018/10/07/pourquoi-creer-un-site-web-en-2018/">Pourquoi créer un site web en 2018 ?</a></li>
                         <li></li>
                     </ul>
                 </div>    
@@ -44,7 +43,7 @@
             <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
                 <div class="widget">
                     <h3><?php echo L::tweets; ?></h3>
-                    <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/PenayeCyrille?ref_src=twsrc%5Etfw">Tweets <?php echo L::par; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline" data-height="300" data-width="340" href="https://twitter.com/GeekMboa?ref_src=twsrc%5Etfw">Tweets <?php echo L::par; ?> MboaGeek</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>    
             </div><!--/.col-md-3-->
 

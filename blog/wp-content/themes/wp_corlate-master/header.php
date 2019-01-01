@@ -72,9 +72,9 @@
     <div class="col-sm-4 col-xs-12">
         <div class="social">
             <ul class="social-share">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                <li><a href="https://facebook.com/ushideshi"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/GeekMboa"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/BlackstarMC97"><i class="fa fa-github"></i></a></li> 
             </ul>
             <div class="search">
                 <form role="search" method="get" id="searchform" class="searchform"

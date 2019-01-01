@@ -31,6 +31,34 @@
                 <div class="portfolio-items">
                     <div class="portfolio-item webshow col-xs-12 col-sm-4 col-md-4">
                         <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?= $baseUrl ?>images/portfolio/recent/image-numerixrh.png" alt="numerixrh website">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#"><?php echo L::numerixrh_title; ?></a></h3>
+                                    <p><?php echo L::numerixrh_intro; ?></p>
+                                    <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-numerixrh.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
+                                    <a target="_blank" class="preview" href="http://www.numerix-rh.com" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item webshow col-xs-12 col-sm-4 col-md-4">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive" src="<?= $baseUrl ?>images/portfolio/recent/image-lbioclin.png" alt="lbioclin website">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h3><a href="#"><?php echo L::lbioclin_title; ?></a></h3>
+                                    <p><?php echo L::lbioclin_intro; ?></p>
+                                    <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-lbioclin.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
+                                    <a target="_blank" class="preview" href="http://www.lbioclin.com" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item webshow col-xs-12 col-sm-4 col-md-4">
+                        <div class="recent-work-wrap">
                             <img class="img-responsive" src="<?= $baseUrl ?>images/portfolio/recent/image-agribizz.png" alt="agribizz website">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -51,7 +79,7 @@
                                     <h3><a href="#"><?php echo L::fconsulting_title; ?></a></h3>
                                     <p><?php echo L::fconsulting_intro; ?></p>
                                     <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-fconsulting.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
-                                    <a target="_blank" class="preview" href="http://www.fconsulting-it.com/" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                    <a target="_blank" class="preview" href="http://penayecyrille.000webhostapp.com/Fconsulting/" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
                                 </div> 
                             </div>
                         </div>
@@ -79,7 +107,7 @@
                                     <h3><a href="#"><?php echo L::almanna_title; ?></a></h3>
                                     <p><?php echo L::almanna_intro; ?></p>
                                     <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-almanna.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
-                                    <a target="_blank" class="preview" href="#" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                    <a target="_blank" class="preview" href="http://penayecyrille.000webhostapp.com/Almanna/" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
                                 </div> 
                             </div>
                         </div>
@@ -93,7 +121,7 @@
                                     <h3><a href="#"><?php echo L::eboard_title; ?></a></h3>
                                     <p><?php echo L::eboard_intro; ?></p>
                                     <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-eboard.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
-                                    <a target="_blank" class="preview" href="#" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                    <a target="_blank" class="preview" href="http://eboardscreen.000webhostapp.com" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
                                 </div> 
                             </div>
                         </div>
@@ -107,13 +135,12 @@
                                     <h3><a href="#"><?php echo L::mconsulting_title; ?></a></h3>
                                     <p><?php echo L::mconsulting_intro; ?></p>
                                     <a class="preview" href="<?= $baseUrl ?>images/portfolio/full/image-mconsulting.png" rel="prettyPhoto"><i class="fa fa-eye"></i> <?php echo L::apercu; ?></a>
-                                    <a target="_blank" class="preview" href="#" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
+                                    <a target="_blank" class="preview" href="http://penayecyrille.000webhostapp.com/MarkupConsulting/" style="margin-left:20px;"><i class="fa fa-globe"></i> <?php echo L::lien; ?></a>
                                 </div> 
                             </div>
                         </div>
                     </div><!--/.portfolio-item-->
 
-                    
                 </div>
 
             </div>

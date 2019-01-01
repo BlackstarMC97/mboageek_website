@@ -7,6 +7,7 @@
 
     <?php 
         $baseUrl =  "http://localhost/MboaGeek/";
+        //$baseUrl =  "http://mboageek.com/";
     ?>
 	
 	<!-- core CSS -->

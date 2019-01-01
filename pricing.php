@@ -30,7 +30,7 @@
                             <li><?php echo L::prix_carnet; ?></li>
                             <li><?php echo L::prix_recherche; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=advice#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@
                             <li>Social media marketing</li>
                             <li>Blogging</li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=content#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +65,7 @@
                             <li><?php echo L::prix_hebergement; ?></li>
                             <li><?php echo L::prix_formation; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=debugging#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
@@ -95,7 +95,7 @@
                             <li><?php echo L::pack_erreur; ?></li>
                             <li><?php echo L::pack_apropos; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=basic#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
@@ -112,7 +112,7 @@
                             <li><?php echo L::pack_logo; ?></li>
                             <li><?php echo L::pack_actus; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=standard#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
@@ -130,11 +130,10 @@
                             <li><?php echo L::pack_charte; ?></li>
                             <li><?php echo L::pack_blog; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=special#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
-
                      <div class="col-sm-6 col-md-3 plan price-three wow fadeInDown">
                         <ul>
                             <li class="heading-three">
@@ -147,7 +146,7 @@
                             <li><?php echo L::pack_fonctionnalite; ?></li>
                             <li><?php echo L::pack_support; ?></li>
                             <li class="plan-action">
-                                <a href="#" class="btn btn-primary"><?php echo L::prix_details; ?></a>
+                                <a href="<?= $baseUrl ?>contact?lang=<?= $_GET['lang']; ?>&choice=custom#contact-page" class="btn btn-primary"><?php echo L::prix_details; ?></a>
                             </li>
                         </ul>
                     </div>
